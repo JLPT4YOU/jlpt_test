@@ -74,7 +74,7 @@ The API is structured to be browsable, allowing you to discover content step-by-
 -   `GET /exams/:source/:level/jlpt_test/:id`
     -   Returns the full content of a specific exam.
     -   **Example:** `/exams/official/N1/jlpt_test/n1_2010_07`
--   `GET /exams/:source/:level/skills_test/:skillId/:id`
+-   `GET /exams/:source/:level/skills_test/:id/:skillId`
     -   Returns specific sections of an exam that correspond to a particular skill.
-    -   **Example:** `/exams/official/N1/skills_test/vocabulary/n1_2010_07`
+    -   **Example:** `/exams/official/N1/skills_test/n1_2010_07/vocabulary`
 

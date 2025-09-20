@@ -4,13 +4,14 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 const examsDirectory = path.join(__dirname, 'exams');
 
 
 // --- Security ---
 const API_KEY = process.env.API_KEY;
+
 
 const apiKeyAuth = (req, res, next) => {
   const apiKey = req.get('X-API-Key');
@@ -117,7 +118,7 @@ app.get('/', (req, res) => {
         </li>
         <li>
           <strong>Get Filtered Exam by Skill</strong><br>
-          <code>GET /exams/:source/:level/skills_test/:skillId/:id</code>
+          <code>GET /exams/:source/:level/skills_test/:id/:skillId</code>
           <p>Returns specific sections of an exam that correspond to a particular skill.</p>
           <p><strong>Parameters:</strong></p>
           <ul>
@@ -126,7 +127,7 @@ app.get('/', (req, res) => {
             <li><code>:skillId</code>: <code>vocabulary</code>, <code>grammar</code>, <code>reading</code>, or <code>listening</code></li>
             <li><code>:id</code>: The ID of the exam, e.g., <code>n1_2010_07</code></li>
           </ul>
-          <p><strong>Example:</strong> <code>/exams/official/N1/skills_test/vocabulary/n1_2010_07</code></p>
+          <p><strong>Example:</strong> <code>/exams/official/N1/skills_test/n1_2010_07/vocabulary</code></p>
         </li>
       </ul>
     </body>
@@ -225,7 +226,7 @@ app.get('/exams/:source/:level/jlpt_test/:id', (req, res) => {
 });
 
 // Get Filtered Exam by Skill
-app.get('/exams/:source/:level/skills_test/:skillId/:id', (req, res) => {
+app.get('/exams/:source/:level/skills_test/:id/:skillId', (req, res) => {
   const { source, level, skillId, id } = req.params;
 
   const skillInfo = skillDetails[skillId];
