@@ -27,7 +27,7 @@ To start the API server, run the following command from the project root:
 node server.js
 ```
 
-The server will start and listen on `http://localhost:3000`.
+The server will start and listen on `http://localhost:3001`.
 
 ## API Authentication
 
@@ -45,7 +45,7 @@ When making requests, you must include the API key in the `X-API-Key` header.
 **Example using cURL:**
 
 ```bash
-curl -H "X-API-Key: your_secret_key_here" http://localhost:3000/exams
+curl -H "X-API-Key: your_secret_key_here" http://localhost:3001/exams
 ```
 
 If the key is missing or invalid, the API will respond with a `401 Unauthorized` error.
@@ -61,20 +61,20 @@ The API is structured to be browsable, allowing you to discover content step-by-
 -   `GET /exams/:source`
     -   Lists available JLPT levels for a given source (e.g., `N1`, `N2`).
 -   `GET /exams/:source/:level`
-    -   Lists available test types (`jlpt_test`, `skills_test`).
+    -   Lists available test types (`jlpt_test`).
 -   `GET /exams/:source/:level/jlpt_test`
-    -   Lists all available exam IDs for the full test.
--   `GET /exams/:source/:level/skills_test`
-    -   Lists all available skills for skill-based tests (`vocabulary`, `grammar`, etc.).
--   `GET /exams/:source/:level/skills_test/:skillId`
-    -   Lists all available exam IDs for a specific skill.
+    -   Lists all available exam IDs for that level.
 
 ### Specific Content Endpoints
 
 -   `GET /exams/:source/:level/jlpt_test/:id`
-    -   Returns the full content of a specific exam.
-    -   **Example:** `/exams/official/N1/jlpt_test/n1_2010_07`
--   `GET /exams/:source/:level/skills_test/:id/:skillId`
-    -   Returns specific sections of an exam that correspond to a particular skill.
-    -   **Example:** `/exams/official/N1/skills_test/n1_2010_07/vocabulary`
+    -   Returns the full content of a specific exam by default.
+    -   Add `?skills=...` to return only the requested skills.
+    -   **Query Parameter (Optional):** `skills` - A comma-separated list of skill IDs: `vocabulary`, `grammar`, `reading`, `listening`.
+    -   **Examples:**
+        - Full: `/exams/official/N1/jlpt_test/n1_2010_07`
+        - 1 skill: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary`
+        - 2 skills: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary,grammar`
+        - 3 skills: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary,grammar,reading`
+        - All 4 skills or omit `skills` = full exam
 
