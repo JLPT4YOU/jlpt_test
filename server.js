@@ -97,7 +97,13 @@ app.get('/', (req, res) => {
         <li><code>GET /exams</code> - Lists available sources (official, custom).</li>
         <li><code>GET /exams/:source</code> - Lists available levels for a source.</li>
         <li><code>GET /exams/:source/:level</code> - Lists test types (jlpt_test).</li>
-        <li><code>GET /exams/:source/:level/jlpt_test</code> - Lists all test IDs for that level.</li>
+        <li>
+          <code>GET /exams/:source/:level/jlpt_test</code> - Lists all test IDs for that level.
+          <br/>Supports pagination: <code>?page=&limit=</code>. Defaults: <code>page=1</code>, <code>limit=10</code> when any is provided.
+          <br/><em>Examples:</em>
+          <br/><code>/exams/official/N1/jlpt_test?page=1&limit=10</code>
+          <br/><code>/exams/official/N1/jlpt_test?page=2&limit=10</code>
+        </li>
       </ul>
 
       <h2>Specific Content Endpoints</h2>
@@ -155,9 +161,10 @@ app.get('/exams/:source/:level', (req, res) => {
     res.json(['jlpt_test']);
 });
 
-// List all exam IDs for jlpt_test
+// List all exam IDs for jlpt_test (supports pagination with ?page=&limit=)
 app.get('/exams/:source/:level/jlpt_test', (req, res) => {
     const { source, level } = req.params;
+    const { page, limit } = req.query;
     const directoryPath = path.join(examsDirectory, level, source);
 
     fs.readdir(directoryPath, (err, files) => {
@@ -168,7 +175,30 @@ app.get('/exams/:source/:level/jlpt_test', (req, res) => {
             .filter(file => file.endsWith('.json'))
             .map(file => path.basename(file, '.json'))
             .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
-        res.json(examIds);
+
+        // If page or limit is provided, return paginated result; otherwise return full list (backward compatible)
+        if (typeof page !== 'undefined' || typeof limit !== 'undefined') {
+            const p = Math.max(parseInt(page || '1', 10) || 1, 1);
+            const l = Math.max(parseInt(limit || '10', 10) || 10, 1);
+            const totalItems = examIds.length;
+            const totalPages = Math.max(Math.ceil(totalItems / l), 1);
+            const currentPage = Math.min(p, totalPages);
+            const start = (currentPage - 1) * l;
+            const end = start + l;
+            const items = examIds.slice(start, end);
+
+            return res.json({
+                items,
+                page: currentPage,
+                limit: l,
+                totalItems,
+                totalPages,
+                hasPrev: currentPage > 1,
+                hasNext: currentPage < totalPages
+            });
+        }
+
+        return res.json(examIds);
     });
 });
 
