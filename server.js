@@ -98,7 +98,7 @@ app.get('/', (req, res) => {
         <li><code>GET /exams/:source</code> - Lists available levels for a source.</li>
         <li><code>GET /exams/:source/:level</code> - Lists test types (jlpt_test).</li>
         <li>
-          <code>GET /exams/:source/:level/jlpt_test</code> - Lists all test IDs for that level.
+          <code>GET /exams/:source/:level/jlpt_test</code> - Lists all tests for that level (each item includes <code>id</code> and <code>title</code>).
           <br/>Supports pagination: <code>?page=&limit=</code>. Defaults: <code>page=1</code>, <code>limit=10</code> when any is provided.
           <br/><em>Examples:</em>
           <br/><code>/exams/official/N1/jlpt_test?page=1&limit=10</code>
@@ -161,22 +161,34 @@ app.get('/exams/:source/:level', (req, res) => {
     res.json(['jlpt_test']);
 });
 
-// List all exam IDs for jlpt_test (supports pagination with ?page=&limit=)
-app.get('/exams/:source/:level/jlpt_test', (req, res) => {
+// List exams (id and title) for jlpt_test (supports pagination with ?page=&limit=)
+app.get('/exams/:source/:level/jlpt_test', async (req, res) => {
     const { source, level } = req.params;
     const { page, limit } = req.query;
     const directoryPath = path.join(examsDirectory, level, source);
 
-    fs.readdir(directoryPath, (err, files) => {
-        if (err) {
-            return res.status(404).json({ error: `Path not found for source '${source}' and level '${level}'.` });
-        }
+    try {
+        const files = await fs.promises.readdir(directoryPath);
         const examIds = files
             .filter(file => file.endsWith('.json'))
             .map(file => path.basename(file, '.json'))
             .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 
-        // If page or limit is provided, return paginated result; otherwise return full list (backward compatible)
+        const readTitles = async (ids) => {
+            const entries = await Promise.all(ids.map(async (id) => {
+                const filePath = path.join(directoryPath, `${id}.json`);
+                try {
+                    const data = await fs.promises.readFile(filePath, 'utf8');
+                    const parsed = JSON.parse(data);
+                    return { id, title: parsed.title || null };
+                } catch (e) {
+                    return { id, title: null };
+                }
+            }));
+            return entries;
+        };
+
+        // If page or limit is provided, return paginated result with items (id,title)
         if (typeof page !== 'undefined' || typeof limit !== 'undefined') {
             const p = Math.max(parseInt(page || '1', 10) || 1, 1);
             const l = Math.max(parseInt(limit || '10', 10) || 10, 1);
@@ -185,7 +197,8 @@ app.get('/exams/:source/:level/jlpt_test', (req, res) => {
             const currentPage = Math.min(p, totalPages);
             const start = (currentPage - 1) * l;
             const end = start + l;
-            const items = examIds.slice(start, end);
+            const pageIds = examIds.slice(start, end);
+            const items = await readTitles(pageIds);
 
             return res.json({
                 items,
@@ -198,8 +211,12 @@ app.get('/exams/:source/:level/jlpt_test', (req, res) => {
             });
         }
 
-        return res.json(examIds);
-    });
+        // No pagination: return full list of {id, title}
+        const items = await readTitles(examIds);
+        return res.json(items);
+    } catch (err) {
+        return res.status(404).json({ error: `Path not found for source '${source}' and level '${level}'.` });
+    }
 });
 
 

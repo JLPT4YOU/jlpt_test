@@ -63,7 +63,7 @@ The API is structured to be browsable, allowing you to discover content step-by-
 -   `GET /exams/:source/:level`
     -   Lists available test types (`jlpt_test`).
 -   `GET /exams/:source/:level/jlpt_test`
-    -   Lists all available exam IDs for that level.
+    -   Lists all available tests for that level; each item includes `id` and `title`.
     -   Supports pagination with query `?page=&limit=`. If either `page` or `limit` is provided, defaults apply when missing: `page=1`, `limit=10`.
     -   Examples:
         -   `/exams/official/N1/jlpt_test?page=1&limit=10`
