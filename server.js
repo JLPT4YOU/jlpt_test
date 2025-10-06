@@ -26,49 +26,50 @@ const apiKeyAuth = (req, res, next) => {
 app.use('/exams', apiKeyAuth);
 
 
+// Updated part classification system based on MONDAI_PART_MAPPING.md
 const skillDetails = {
   vocabulary: {
     id: 'vocabulary',
     name: 'Từ vựng',
     levels: {
-      N1: [1, 2, 3, 4],
-      N2: [1, 2, 3, 4],
-      N3: [1, 2, 3],
-      N4: [1, 2, 3],
-      N5: [1, 2, 3],
+      N1: [1, 2, 3, 4, 5],  // Mondai 1-5
+      N2: [1, 2, 3, 4, 5],  // Mondai 1-5
+      N3: [1, 2, 3, 4, 5],  // Mondai 1-5
+      N4: [1, 2, 3, 4, 5],  // Mondai 1-5
+      N5: [1, 2, 3, 4],     // Mondai 1-4
     },
   },
   grammar: {
     id: 'grammar',
     name: 'Ngữ pháp',
     levels: {
-      N1: [5, 6, 7],
-      N2: [5, 6, 7],
-      N3: [4, 5, 6, 7],
-      N4: [4, 5, 6, 7],
-      N5: [4, 5, 6, 7],
+      N1: [6, 7, 8],        // Mondai 6-8
+      N2: [6, 7, 8],        // Mondai 6-8
+      N3: [6, 7, 8],        // Mondai 6-8
+      N4: [6, 7, 8],        // Mondai 6-8
+      N5: [5, 6, 7],        // Mondai 5-7
     },
   },
   reading: {
     id: 'reading',
     name: 'Đọc hiểu',
     levels: {
-      N1: [8, 9, 10, 11, 12],
-      N2: [8, 9, 10, 11],
-      N3: [8, 9, 10],
-      N4: [8, 9, 10],
-      N5: [8, 9, 10],
+      N1: [9, 10, 11, 12, 13],    // Mondai 9-13
+      N2: [9, 10, 11, 12, 13],    // Mondai 9-13
+      N3: [9, 10, 11, 12],        // Mondai 9-12
+      N4: [9, 10, 11],            // Mondai 9-11
+      N5: [8, 9, 10],             // Mondai 8-10
     },
   },
   listening: {
     id: 'listening',
     name: 'Nghe hiểu',
     levels: {
-      N1: [13, 14, 15],
-      N2: [12, 13, 14],
-      N3: [11, 12, 13, 14],
-      N4: [11, 12, 13, 14],
-      N5: [11, 12, 13, 14],
+      N1: [14, 15, 16, 17, 18],       // Mondai 14-18
+      N2: [14, 15, 16, 17, 18, 19],   // Mondai 14-19 (some exams have 19)
+      N3: [13, 14, 15, 16, 17],       // Mondai 13-17
+      N4: [12, 13, 14, 15],           // Mondai 12-15
+      N5: [11, 12, 13, 14],           // Mondai 11-14
     },
   },
 };
@@ -255,26 +256,39 @@ app.get('/exams/:source/:level/jlpt_test/:id', (req, res) => {
         return res.json(examData);
       }
 
-      // Collect mondai numbers for the requested skills at this level
-      let mondaisForSkills = [];
-      for (const skillId of uniqueRequested) {
-        const info = skillDetails[skillId];
-        if (info && info.levels[level]) {
-          mondaisForSkills.push(...info.levels[level]);
+      // Filter sections based on the 'part' field directly (preferred method)
+      // This uses the actual part classification from the exam data
+      const filteredSections = examData.sections.filter(section => {
+        return uniqueRequested.includes(section.part);
+      });
+
+      // Fallback: if no sections match by part, try mondai-based filtering
+      // (for backward compatibility or edge cases)
+      if (filteredSections.length === 0) {
+        let mondaisForSkills = [];
+        for (const skillId of uniqueRequested) {
+          const info = skillDetails[skillId];
+          if (info && info.levels[level]) {
+            mondaisForSkills.push(...info.levels[level]);
+          }
+        }
+        
+        if (mondaisForSkills.length > 0) {
+          mondaisForSkills = [...new Set(mondaisForSkills)];
+          const fallbackSections = examData.sections.filter(section =>
+            mondaisForSkills.includes(section.mondai)
+          );
+          
+          if (fallbackSections.length > 0) {
+            filteredSections.push(...fallbackSections);
+          }
         }
       }
 
-      // No valid skill provided
-      if (mondaisForSkills.length === 0) {
-        return res.status(404).json({ error: `No valid skills found for level '${level}'.` });
+      // No valid sections found
+      if (filteredSections.length === 0) {
+        return res.status(404).json({ error: `No sections found for skills '${uniqueRequested.join(', ')}' in level '${level}'.` });
       }
-
-      // Deduplicate
-      mondaisForSkills = [...new Set(mondaisForSkills)];
-
-      const filteredSections = examData.sections.filter(section =>
-        mondaisForSkills.includes(section.mondai)
-      );
 
       const result = {
         id: examData.id,
