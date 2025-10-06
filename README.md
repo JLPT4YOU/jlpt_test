@@ -1,84 +1,143 @@
-# JLPT Exams API
+# 🎌 JLPT4YOU Exam API
 
-A simple Node.js Express API to serve JLPT exam data. This API allows you to retrieve full exam content or filter questions by specific skills (vocabulary, grammar, reading, listening).
+> **🆕 Major Update (Oct 2025)**: Cơ sở dữ liệu đã được cập nhật với **2,023 đề thi** và **200,894 câu hỏi** được phân loại theo 4 kỹ năng chính!
+
+A comprehensive RESTful API server for JLPT (Japanese Language Proficiency Test) exam questions with advanced part classification system.
+
+## ✨ Features
+
+- **🎯 Complete JLPT Database**: 2,023 đề thi across all levels (N1-N5)
+- **📊 Smart Classification**: Questions classified by skills (vocabulary, grammar, reading, listening)
+- **🔍 Advanced Filtering**: Filter by level, part, type, mondai, and more
+- **📈 Built-in Statistics**: Detailed analytics for each exam and level
+- **🚀 High Performance**: Optimized for fast data retrieval
+- **🌐 CORS Enabled**: Ready for frontend integration
+
+## 📊 Database Overview
+
+| Level | Exams | Questions | Vocabulary | Grammar | Reading | Listening |
+|-------|-------|-----------|------------|---------|---------|-----------|
+| **N1** | 201 | 21,480 | 7,035 (32.8%) | 2,821 (13.1%) | 4,399 (20.5%) | 7,225 (33.6%) |
+| **N2** | 382 | 40,501 | 10,286 (25.4%) | 8,392 (20.7%) | 8,967 (22.1%) | 12,856 (31.7%) |
+| **N3** | 551 | 55,971 | 19,281 (34.4%) | 12,663 (22.6%) | 8,837 (15.8%) | 15,190 (27.1%) |
+| **N4** | 555 | 53,351 | 18,859 (35.3%) | 13,869 (26.0%) | 5,565 (10.4%) | 15,058 (28.2%) |
+| **N5** | 334 | 29,591 | 11,728 (39.6%) | 8,344 (28.2%) | 2,180 (7.4%) | 7,339 (24.8%) |
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or later recommended)
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [npm](https://www.npmjs.com/) (usually comes with Node.js)
 
-## Installation
+## 🚀 Quick Start
 
-1.  Clone the repository or download the source code.
-2.  Navigate to the project directory:
+1.  **Clone the repository:**
     ```bash
-    cd exams-api
+    git clone https://github.com/your-username/jlpt4you-api.git
+    cd jlpt4you-api
     ```
-3.  Install the required dependencies:
+
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-## Running the Server
+3.  **Start the server:**
+    ```bash
+    npm start
+    # or for development
+    npm run dev
+    ```
 
-To start the API server, run the following command from the project root:
+The API will be available at `http://localhost:3001`
 
-```bash
-node server.js
+## 🎯 API Endpoints
+
+### Basic Usage
+
+```javascript
+// Get all N3 exams
+GET /api/exams?level=3
+
+// Get N3 vocabulary questions only
+GET /api/exams?level=3&part=vocabulary
+
+// Get specific exam
+GET /api/exams/jlpt4you_N3_1
+
+// Get statistics
+GET /api/statistics
 ```
 
-The server will start and listen on `http://localhost:3001`.
+### Advanced Filtering
 
-## API Authentication
+| Parameter | Values | Description |
+|-----------|--------|-------------|
+| `level` | 1,2,3,4,5 | JLPT level (N1-N5) |
+| `part` | vocabulary, grammar, reading, listening | Skill type |
+| `type` | custom, official | Exam source |
+| `mondai` | 1-19 | Specific mondai number |
+| `limit` | 1-100 | Results per page |
+| `offset` | 0+ | Skip results (pagination) |
 
-All API endpoints require an API key. This project uses the `dotenv` package to manage environment variables.
-
-1.  Create a file named `.env` in the root of the project.
-2.  Add your API key to the `.env` file as follows:
-    ```
-    API_KEY=your_secret_key_here
-    ```
-3.  The server will automatically load this key. The `.gitignore` file is configured to prevent the `.env` file from being committed to Git.
-
-When making requests, you must include the API key in the `X-API-Key` header.
-
-**Example using cURL:**
+### Examples
 
 ```bash
-curl -H "X-API-Key: your_secret_key_here" http://localhost:3001/exams
+# Lấy 10 đề N2 listening đầu tiên
+curl "http://localhost:3001/api/exams?level=2&part=listening&limit=10"
+
+# Lấy đề official N1
+curl "http://localhost:3001/api/exams?level=1&type=official"
+
+# Lấy thống kê N3
+curl "http://localhost:3001/api/statistics/N3"
 ```
 
-If the key is missing or invalid, the API will respond with a `401 Unauthorized` error.
+## 🏗️ Part Classification System
 
-## API Endpoints
+### Mondai Mapping
 
-The API is structured to be browsable, allowing you to discover content step-by-step.
+| Level | Vocabulary | Grammar | Reading | Listening |
+|-------|------------|---------|---------|-----------|
+| **N1** | Mondai 1-5 | Mondai 6-8 | Mondai 9-13 | Mondai 14-18 |
+| **N2** | Mondai 1-5 | Mondai 6-8 | Mondai 9-13 | Mondai 14-19* |
+| **N3** | Mondai 1-5 | Mondai 6-8 | Mondai 9-12 | Mondai 13-17 |
+| **N4** | Mondai 1-5 | Mondai 6-8 | Mondai 9-11 | Mondai 12-15 |
+| **N5** | Mondai 1-4 | Mondai 5-7 | Mondai 8-10 | Mondai 11-14 |
 
-### Browsable Endpoints
+*N2 có thể có 18 hoặc 19 mondai (Mondai 19 là listening bổ sung)
 
--   `GET /exams`
-    -   Lists available sources (`official`, `custom`).
--   `GET /exams/:source`
-    -   Lists available JLPT levels for a given source (e.g., `N1`, `N2`).
--   `GET /exams/:source/:level`
-    -   Lists available test types (`jlpt_test`).
--   `GET /exams/:source/:level/jlpt_test`
-    -   Lists all available tests for that level; each item includes `id` and `title`.
-    -   Supports pagination with query `?page=&limit=`. If either `page` or `limit` is provided, defaults apply when missing: `page=1`, `limit=10`.
-    -   Examples:
-        -   `/exams/official/N1/jlpt_test?page=1&limit=10`
-        -   `/exams/official/N1/jlpt_test?page=2&limit=10`
+## 📚 Documentation
 
-### Specific Content Endpoints
+- **[API Usage Guide](API_USAGE_GUIDE.md)** - Comprehensive API documentation
+- **[Mondai Part Mapping](MONDAI_PART_MAPPING.md)** - Detailed part classification system
+- **[Statistics](exam_statistics.json)** - Generated database statistics
 
--   `GET /exams/:source/:level/jlpt_test/:id`
-    -   Returns the full content of a specific exam by default.
-    -   Add `?skills=...` to return only the requested skills.
-    -   **Query Parameter (Optional):** `skills` - A comma-separated list of skill IDs: `vocabulary`, `grammar`, `reading`, `listening`.
-    -   **Examples:**
-        - Full: `/exams/official/N1/jlpt_test/n1_2010_07`
-        - 1 skill: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary`
-        - 2 skills: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary,grammar`
-        - 3 skills: `/exams/official/N1/jlpt_test/n1_2010_07?skills=vocabulary,grammar,reading`
-        - All 4 skills or omit `skills` = full exam
+## 🛠️ Maintenance Scripts
+
+```bash
+# Update all exam files with correct part classification
+python3 update_exam_parts.py
+
+# Validate all exam files
+python3 validate_exams.py
+
+# Generate fresh statistics
+python3 generate_statistics.py
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Add your changes
+4. Run validation scripts
+5. Submit a pull request
+
+## 📄 License
+
+This project is for educational purposes. JLPT is a trademark of the Japan Foundation and Japan Educational Exchanges and Services.
+
+---
+
+**🎯 Built for JLPT learners worldwide**
 

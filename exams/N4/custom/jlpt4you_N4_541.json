@@ -1,110 +1,113 @@
 {
-  "id": "jlpt4you_N4_492",
-  "title": "JLPT4YOU N4 (541)",
+  "id": "jlpt4you_N4_688",
+  "title": "JLPT4YOU N4 (688)",
   "level": 4,
-  "duration": 115,
+  "type": "custom",
+  "source": "jlpt4you",
+  "duration": 114,
   "sections": [
     {
       "mondai": 1,
+      "part": "vocabulary",
       "title": "Chuyển Kanji sang Hira",
       "description": "＿＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
         {
           "number": 1,
-          "text": "<u>妹</u>さん はお元気ですか。",
+          "text": "<u>今夜</u>は 月が 明るいです。",
           "options": [
-            "いもと",
-            "いもうと",
-            "いもど",
-            "いもうど"
+            "こうや",
+            "こんや",
+            "こよい",
+            "こんばん"
           ],
           "answer": 1
         },
         {
           "number": 2,
-          "text": "たくさん　<u>売って</u> います。",
+          "text": "<u>兄弟</u>は　いません。",
           "options": [
-            "うって",
-            "かって",
-            "めって",
-            "しって"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 3,
-          "text": "とうきょうには　23も　<u>区</u>が　あります。",
-          "options": [
-            "まち",
-            "し",
-            "くに",
-            "く"
-          ],
-          "answer": 3
-        },
-        {
-          "number": 4,
-          "text": "あした、あなたの　<u>都合</u>は　どうですか。",
-          "options": [
-            "つごう",
-            "つあい",
-            "とあい",
-            "とごう"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 5,
-          "text": "ぜひ　<u>一度</u>　おさけを　飲みに　行きましょう。",
-          "options": [
-            "いちど",
-            "いちたび",
-            "いっど",
-            "ひとど"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 6,
-          "text": "１日３回、この<u>薬</u>を 飲んでください。",
-          "options": [
-            "くつり",
-            "くすり",
-            "すくり",
-            "つくり"
+            "りょうしん",
+            "きょうだい",
+            "おとうと",
+            "しまい"
           ],
           "answer": 1
         },
         {
-          "number": 7,
-          "text": "大学で　日本の　<u>歴史</u>を　べんきょう　したいです。",
+          "number": 3,
+          "text": "<u>夜</u>が良いです。",
           "options": [
-            "れきじ",
-            "れいじ",
-            "れきし",
-            "れいし"
+            "ひる",
+            "よる",
+            "やる",
+            "はる"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 4,
+          "text": "ハガキは　どこで　<u>売って</u>　いますか。",
+          "options": [
+            "はって",
+            "かって",
+            "つくって",
+            "うって"
+          ],
+          "answer": 3
+        },
+        {
+          "number": 5,
+          "text": "<u>漢字</u>は　むずかしいです。",
+          "options": [
+            "かじ",
+            "かんじ",
+            "はんつ",
+            "はんじ"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 6,
+          "text": "あなたの　<u>意見</u>はどうですか。",
+          "options": [
+            "いけん",
+            "いっけん",
+            "いみ",
+            "いけ"
+          ],
+          "answer": 0
+        },
+        {
+          "number": 7,
+          "text": "いま　<u>四月</u>です。",
+          "options": [
+            "しげつ",
+            "よんげつ",
+            "しがつ",
+            "よげつ"
           ],
           "answer": 2
         },
         {
           "number": 8,
-          "text": "<u>自転車</u>で 駅まで 行きます。",
+          "text": "<u>夕飯</u>は　何に　しますか。",
           "options": [
-            "じてんちゃ",
-            "じどんちゃ",
-            "じどうしゃ",
-            "じてんしゃ"
+            "ばんごはん",
+            "ばんめし",
+            "ゆうしょく",
+            "ゆうはん"
           ],
           "answer": 3
         },
         {
           "number": 9,
-          "text": "きょうとで　古い　<u>建物</u>を　たくさん　見ました。",
+          "text": "明日は 早いから、もう<u>寝ます</u>。",
           "options": [
-            "たてもの",
-            "けんぶつ",
-            "けんもの",
-            "たてぶつ"
+            "ねます",
+            "ねむます",
+            "にます",
+            "ねみます"
           ],
           "answer": 0
         }
@@ -112,240 +115,243 @@
     },
     {
       "mondai": 2,
+      "part": "vocabulary",
       "title": "Chuyển Hira sang Kanji",
       "description": "＿＿＿の言葉を漢字で書く時、最もよいものを、1・2・3・4から一つ 選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "じぶんで　りょうりを　<u>つくります</u>か。",
+          "number": 10,
+          "text": "<u>ひるま</u>は 大学で 勉強して、夜は アルバイトして います。",
           "options": [
-            "代ります",
-            "作ります",
-            "付ります",
-            "俳ります"
-          ],
-          "answer": 1
-        },
-        {
-          "number": 2,
-          "text": "ジュースをかって<u>のみます</u>。",
-          "options": [
-            "館みます",
-            "飯みます",
-            "食べます",
-            "飲みます"
+            "尽間",
+            "尽問",
+            "昼問",
+            "昼間"
           ],
           "answer": 3
         },
         {
-          "number": 3,
-          "text": "みじかい<u>ぶん</u>を書きます。",
+          "number": 11,
+          "text": "どこで　それを　<u>かいましたか</u>。",
           "options": [
-            "父",
-            "文",
-            "又",
-            "交"
-          ],
-          "answer": 1
-        },
-        {
-          "number": 4,
-          "text": "あそこに　<u>ひくい</u> 山が　みえます。",
-          "options": [
-            "低い",
-            "紙い",
-            "低",
-            "氏い"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 5,
-          "text": "さっきより　少し　かぜが　<u>よわく</u>　なって　きました。",
-          "options": [
-            "遠く",
-            "近く",
-            "弱く",
-            "強く"
+            "員いました",
+            "質いました",
+            "買いました",
+            "貸いました"
           ],
           "answer": 2
         },
         {
-          "number": 6,
-          "text": "いつも地下鉄を<u>りようして</u>います。",
+          "number": 12,
+          "text": "先週のテストは<u>ひじょう</u>にむずかしかったです。",
           "options": [
-            "利用して",
-            "理由して",
-            "料用して",
-            "使用して"
+            "非情",
+            "緋常",
+            "非常",
+            "緋情"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 13,
+          "text": "わかった　人は　<u>て</u>を　あげて　ください。",
+          "options": [
+            "足",
+            "千",
+            "手",
+            "午"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 14,
+          "text": "<u>とくべつ</u>もんだいはありません。",
+          "options": [
+            "特別",
+            "持別",
+            "待別",
+            "時別"
           ],
           "answer": 0
+        },
+        {
+          "number": 15,
+          "text": "母は　<u>りょうり</u>が　じょうずです。",
+          "options": [
+            "料里",
+            "理料",
+            "料理",
+            "量料"
+          ],
+          "answer": 2
         }
       ]
     },
     {
       "mondai": 3,
+      "part": "vocabulary",
       "title": "Điền từ vựng",
       "description": "（　　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "いそがしいですが、だいがくの　友だちとは（　　　）あいます。",
+          "number": 16,
+          "text": "この　住所が　ただしいかどうか（　　　）ください。",
           "options": [
-            "たまに",
-            "すっきり",
-            "なるほど",
-            "とうとう"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 2,
-          "text": "ママは　兄を　よく（　　　）いる。",
-          "options": [
-            "会って",
-            "しかって",
-            "投げて",
-            "止めて"
+            "すてて",
+            "しらべて",
+            "さわって",
+            "こわれて"
           ],
           "answer": 1
         },
         {
-          "number": 3,
-          "text": "ずっと　コンピューターを　使()っていたら、（　　　）が　いたく　なりました。",
+          "number": 17,
+          "text": "てんき（　　　）を　見て、かさを　もって　出かけました。",
           "options": [
-            "くび",
-            "ひざ",
-            "かど",
-            "すみ"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 4,
-          "text": "日本の大学に（　　　）したい。",
-          "options": [
-            "予約",
-            "入学",
-            "計画",
-            "卒業"
-          ],
-          "answer": 1
-        },
-        {
-          "number": 5,
-          "text": "父は（　　　）わたしのいえによってお茶を飲みます。",
-          "options": [
-            "たまに",
-            "さいしょ",
-            "ぜんぜん",
-            "けっして"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 6,
-          "text": "としょかんは（　　　）を　わたって　すぐです。",
-          "options": [
-            "うみ",
-            "えき",
-            "はし",
-            "こうえん"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 7,
-          "text": "この書類は大切ですから、なくさないように（　　　）してください。",
-          "options": [
-            "注意",
-            "意見",
-            "用意",
-            "意味"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 8,
-          "text": "この　間　あったのは　半年も　前ですから、（　　　）ですね。",
-          "options": [
-            "さっき",
-            "もうすぐ",
-            "まず",
-            "ひさしぶり"
+            "はなし",
+            "にっき",
+            "ばんぐみ",
+            "よほう"
           ],
           "answer": 3
         },
         {
-          "number": 9,
-          "text": "このまちで（　　　）やさいは、ぜんぶこのまちのスーパーでうっている。",
+          "number": 18,
+          "text": "ズボンのことを（　　　）ともいう。",
           "options": [
-            "せいさんした",
-            "りようした",
-            "なおした",
-            "つかまえられた"
+            "ボール",
+            "マフラー",
+            "スカート",
+            "パンツ"
+          ],
+          "answer": 3
+        },
+        {
+          "number": 19,
+          "text": "まどに（　　　　）をかけていないので、へやのなかがあつい。",
+          "options": [
+            "ガラス",
+            "カーテン",
+            "かべ",
+            "ボタン"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 20,
+          "text": "日本に　住む　友だちの　家に（　　　）。",
+          "options": [
+            "寝る",
+            "止める",
+            "入れる",
+            "泊まる"
+          ],
+          "answer": 3
+        },
+        {
+          "number": 21,
+          "text": "この　Ｔシャツは　むねではなくて、（　　　）に　えが　かいて　あります。",
+          "options": [
+            "ひざ",
+            "せなか",
+            "あし",
+            "あたま"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 22,
+          "text": "くさんの　人が　さくらの　木の　下で（　　　）を　しています。",
+          "options": [
+            "はなみ",
+            "ゆめ",
+            "こうよう",
+            "しぜん"
           ],
           "answer": 0
+        },
+        {
+          "number": 23,
+          "text": "（　　　）は　好きですが、50メートルしか　およぎません。",
+          "options": [
+            "じゅうどう",
+            "ちゃどう",
+            "すいどう",
+            "すいえい"
+          ],
+          "answer": 3
+        },
+        {
+          "number": 24,
+          "text": "子どもの（　　　）は　とても　だいじです。",
+          "options": [
+            "けいさつ",
+            "ほうそう",
+            "せんそう",
+            "きょういく"
+          ],
+          "answer": 3
         }
       ]
     },
     {
       "mondai": 4,
+      "part": "vocabulary",
       "title": "Viết lại câu",
       "description": "＿＿の　ぶんと　だいたい　おなじ　いみの　ぶんが　あります。1・2・3・4から　いちばん　いい　ものを　ひとつ　えらんでください。",
       "questions": [
         {
-          "number": 1,
-          "text": "<u>あには しごとに ねっしんな 人です。</u>",
+          "number": 25,
+          "text": "<u>しごとは　いつ　すみますか。</u>",
           "options": [
-            "あには しごとに ひつような ことを しって います。",
-            "あには しごとが きらいです。",
-            "あには しごとに てきとうな 人です。",
-            "あには しごとを いっしょうけんめい します。"
+            "しごとは　いつ　はじまりますか。",
+            "しごとは　いつ　やめますか。",
+            "しごとは　いつ　やすみりますか。",
+            "しごとは　いつ　おわりますか。"
           ],
           "answer": 3
         },
         {
-          "number": 2,
-          "text": "<u>きのうのえいがはちっともおもしろくありませんでした。</u>",
+          "number": 26,
+          "text": "<u>これと　それを　べつに　してください。</u>",
           "options": [
-            "きのうのえいがはなかなかおもしろくありませんでした。",
-            "きのうのえいがはもちろんおもしろくありませんでした。",
-            "きのうのえいがはすっかりおもしろくありませんでした。",
-            "きのうのえいがはぜんぜんおもしろくありませんでした。"
-          ],
-          "answer": 3
-        },
-        {
-          "number": 3,
-          "text": "<u>じゅぎょうが　はじまる　時間に　まにあいました。</u>",
-          "options": [
-            "じゅぎょうが　休みでした。",
-            "じゅぎょうに　しゅっせきできませんでした。",
-            "じゅぎょうに　おくれませんでした。",
-            "じゅぎょうに　おくれました。"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 4,
-          "text": "<u>手紙を読んで、安心しました。</u>",
-          "options": [
-            "手紙を 読んで、心配がなくなりました。",
-            "手紙を読んで、心配しました。",
-            "手紙を読んで、気持ちが悪くなりました。",
-            "手紙を読んで、かなしくなりました。"
+            "これと　それを　いっしょうに　しないで　ください。",
+            "これと　それを　いっしょうに　おくって　ください。",
+            "これと　それを　いっしょうに　つつんで　ください。",
+            "これと　それを　いっしょうに　入れて　ください。"
           ],
           "answer": 0
         },
         {
-          "number": 5,
-          "text": "<u>その　ニュースは　たしかです。</u>",
+          "number": 27,
+          "text": "<u>ふくが　よごれました。</u>",
           "options": [
-            "その　ニュースを　しりませんでした。",
-            "その　ニュースを　はじめて　聞きました。",
-            "その　ニュースは　ほんとうです。",
-            "その　ニュースは　ほんとうか　どうか　わかりません。"
+            "ふくが　きれいに　なりました。",
+            "ふくが　大きく　なりました。",
+            "ふくが　きたなく　なりました。",
+            "ふくが　小さく　なりました。"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 28,
+          "text": "<u>たなかさんは　先生に　ほめられました。</u>",
+          "options": [
+            "先生は　たなかさんに「気を　つけてね」と　言いました。",
+            "先生は　たなかさんに「とても　よかったですよ」と　言いました。",
+            "先生は　たなかさんに「ちょっと　休みましょう」と　言いました。",
+            "先生は　たなかさんに「たいへんですね」と　言いました。"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 29,
+          "text": "<u>これからは　たばこを　すわない　ことに　しました。</u>",
+          "options": [
+            "これからは　たばこを　すっては　いけない。",
+            "これからは　たばこを　すわないことに　きまりました。",
+            "これからは　たばこを　すわないと　きめました。",
+            "これからは　たばこを　すわないように　してください。"
           ],
           "answer": 2
         }
@@ -353,513 +359,548 @@
     },
     {
       "mondai": 5,
+      "part": "vocabulary",
       "title": "Chọn cách dùng đúng",
       "description": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "留守(るす)",
+          "number": 30,
+          "text": "しょうたい",
           "options": [
-            "最近　忙しくて、仕事が　<u>留守</u>に　なりません。",
-            "あの　デパートに　今日は　<u>留守</u>です。",
-            "この　飛行機には　<u>留守</u>の　せきが　ありません。",
-            "友だちの　家に　行ったら　<u>留守</u>でした。"
+            "あれ？たなかさんがいませんね。ちょっと<u>しょうたい</u>します。",
+            "さとうさんが見えたので、大きなこえで<u>しょうたい</u>しました。",
+            "わたしは、けっこんしきにやまもとさんを<u>しょうたい</u>しました。",
+            "はやしさんはたぶんもうすぐ来ます。もうすこし<u>しょうたい</u>しましょう。"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 31,
+          "text": "すみ",
+          "options": [
+            "ゆびの　<u>すみ</u>に　どろが　ついて　います。",
+            "そらの　<u>すみ</u>に　つきが　みえます。",
+            "かさの　<u>すみ</u>が　おれました。",
+            "へやの　<u>すみ</u>に　テレビが　おいて　あります。"
           ],
           "answer": 3
         },
         {
-          "number": 2,
-          "text": "すべる",
+          "number": 32,
+          "text": "むり",
           "options": [
-            "じかんがないので　しごとを<u>すべりました</u>。",
-            "ビルのおくじょうから　ボールが<u>すべりました</u>。",
-            "かいだんをいちだんずつ <u>すべりました</u>。",
-            "きょねんもこのスキーじょうで<u>すべりました</u>。"
-          ],
-          "answer": 3
-        },
-        {
-          "number": 3,
-          "text": "だいじ",
-          "options": [
-            "びょうきが　なおるまで　からだを　<u>だいじ</u>にい　して　ください。",
-            "せまい　どうろなので　<u>だいじ</u>に　うんてんした。",
-            "ナイフは　あぶないので　<u>だいじ</u>に　つかいました。",
-            "おとが　しないように　ドアを　<u>だいじ</u>に　あけました。"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 4,
-          "text": "やっぱり",
-          "options": [
-            "この店のラーメンはにんきがあって、<u>やっぱり</u>ですね。",
-            "べんきょうしなかったから、<u>やっぱり</u>テストはできませんでした。",
-            "外はあつかったから、シャワーをあびて、<u>やっぱり</u>しましょう。",
-            "ごはんは<u>やっぱり</u>あるから、えんりょしないで食べてね。"
+            "うちにあるものをまた買うのは<u>むり</u>です。",
+            "<u>むり</u>をしてびょうきになりました。",
+            "わたしはぶたにくを<u>むり</u>をします。",
+            "<u>むり</u>ですから、しんぱいしないでください。"
           ],
           "answer": 1
         },
         {
-          "number": 5,
-          "text": "しつれい",
+          "number": 33,
+          "text": "わらう",
           "options": [
-            "ゆうがたに　なりましたので　もう　<u>しつれい</u>します。",
-            "せんせいは　まいにち　ごじに　がっこうを　<u>しつれい</u>します。",
-            "みせに　くる　おきゃくさんは　いつも　すぐに　<u>しつれい</u>します。",
-            "わたしが　おりると　タクシーは　すぐに　<u>しつれい</u>しました。"
+            "なかないで　<u>わらって</u>ください。",
+            "どうぞ　そのいすに　<u>わらって</u>ください。",
+            "この　シャツは　<u>わらって</u>ありますか。",
+            "さらを　おとして、わらってしまいました。"
           ],
           "answer": 0
+        },
+        {
+          "number": 34,
+          "text": "<ruby>出席<rp>(</rp><rt>しゅっせき</rt><rp>)</rp></ruby>",
+          "options": [
+            "いちど、日本の　お祭りに　<u>出席</u>して　みたいなあ。",
+            "昨日の　会議に、田中さんは　<u>出席</u>して　いませんでした。",
+            "もうすぐ　家を　出席しますから、もう　少し　待って　ください。",
+            "休みの　日は、外に　<u>出席</u>したり、家で　<ruby>掃除<rp>(</rp><rt>そうじ</rt><rp>)</rp></ruby>を　したり　します。"
+          ],
+          "answer": 1
         }
       ]
     },
     {
       "mondai": 6,
+      "part": "grammar",
       "title": "Chọn ngữ pháp",
       "description": "次の文の（　　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "試験(しけん)の　もうしこみは　今月の　30日（　　　）です。",
+          "number": 35,
+          "text": "朝 電車が 込んで いて、乗れない（　　　）。",
           "options": [
-            "までに",
-            "まで",
-            "だけに",
-            "だけ"
+            "ことに します",
+            "ことが あります",
+            "ことに なります",
+            "ことが できます"
           ],
           "answer": 1
         },
         {
-          "number": 2,
-          "text": "いくらたのまれても、このカメラは　貸して（　　　）。",
+          "number": 36,
+          "text": "カルロスは　サッカーが　うまいからフットサルも　上手な（　　　）。",
           "options": [
-            "あげた",
-            "あげる",
-            "あげよう",
-            "あげない"
-          ],
-          "answer": 3
-        },
-        {
-          "number": 3,
-          "text": "「これは二人だけのひみつですから、だれにも（　　　）。」",
-          "options": [
-            "言わなければなりません",
-            "言わなくてもいいです",
-            "言わないそうです",
-            "言ってはいけません"
-          ],
-          "answer": 3
-        },
-        {
-          "number": 4,
-          "text": "今日（　　　）十時間も 雨が 降り続いて います。",
-          "options": [
-            "で",
-            "から",
-            "の",
-            "が"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 5,
-          "text": "日本語を　習い（　　　）から　もう　3年です。",
-          "options": [
-            "だして",
-            "おわって",
-            "はじめて",
-            "つづけて"
+            "はずない",
+            "ことない",
+            "はずだ",
+            "ことだ"
           ],
           "answer": 2
         },
         {
-          "number": 6,
-          "text": "彼女は アジア（　　　）りゅうがくせいです。",
+          "number": 37,
+          "text": "A「バスが　なかなか　来ませんね。」\n\nB「歩いたほうが（　　　）ね。」",
           "options": [
-            "から",
-            "からの",
-            "にの",
-            "に"
+            "早く　しましょう",
+            "早い　ようにする",
+            "早いかもしれません",
+            "早いはずが　ない"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 38,
+          "text": "あしたの　<ruby>宿題<rp>(</rp><rt>しゅくだい</rt><rp>)</rp></ruby>の　レポートが　まだ　１<ruby>枚<rp>(</rp><rt>まい</rt><rp>)</rp></ruby>（　　　）できて　いません。",
+          "options": [
+            "も",
+            "ずつ",
+            "でも",
+            "とか"
+          ],
+          "answer": 0
+        },
+        {
+          "number": 39,
+          "text": "あのレストランは、いつ（　　　）こんでいます。",
+          "options": [
+            "行ったら",
+            "行けば",
+            "行っても",
+            "行くと"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 40,
+          "text": "健康のために、毎日３キロ走る（　　　）。",
+          "options": [
+            "ようになる",
+            "ことになる",
+            "のにした",
+            "ことにした"
+          ],
+          "answer": 3
+        },
+        {
+          "number": 41,
+          "text": "あまり長い時間（　　　）たくないです。",
+          "options": [
+            "働か",
+            "働き",
+            "働け",
+            "働く"
           ],
           "answer": 1
         },
         {
-          "number": 7,
-          "text": "その　本だなに　ある　まんがを（　　　）いいですか。",
+          "number": 42,
+          "text": "田舎から　<ruby>姉<rp>(</rp><rt>あね</rt><rp>)</rp></ruby>が　来ますから、<ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby>は（　　　）いただけませんか。",
           "options": [
-            "読んでも",
-            "読むと",
-            "読まないでは",
-            "読まないと"
+            "休んで",
+            "休ませられて",
+            "休ませて",
+            "休まれて"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 43,
+          "text": "（レストランで）「ビールでもどう？」「はい、（　　　）。」",
+          "options": [
+            "いただきます",
+            "おいしいです",
+            "好きでした",
+            "飲んでみました"
           ],
           "answer": 0
         },
         {
-          "number": 8,
-          "text": "外でサッカーをしていたら、急に雨が（　　　）だした。",
+          "number": 44,
+          "text": "「<ruby>顔色<rp>(</rp><rt>かおいろ</rt><rp>)</rp></ruby>が悪いですね。今日は早く（　　　）。」",
           "options": [
-            "ふる",
-            "ふらない",
-            "ふった",
-            "ふり"
+            "帰るのがいいですよ",
+            "帰ったほうがいいですよ",
+            "帰ったことがありますか",
+            "帰ることがありましたか"
+          ],
+          "answer": 1
+        },
+        {
+          "number": 45,
+          "text": "「この漢字が（　　　）か。」",
+          "options": [
+            "読みます",
+            "読みました",
+            "読めます",
+            "読められます"
+          ],
+          "answer": 2
+        },
+        {
+          "number": 46,
+          "text": "Ａ「きれいな　花　ですね。どうやって　そだてて　いるんですか。」\n\nＢ「やさしい　気持ちで　水を（　　　）いるのが　いいのかもしれませんね。」",
+          "options": [
+            "もらって",
+            "くれて",
+            "さしあげて",
+            "やって"
           ],
           "answer": 3
         },
         {
-          "number": 9,
-          "text": "子供「ねえ、ゲームを　しても　いい？」\n\n母親「しゅくだいを（　　　）あとでね。」",
+          "number": 47,
+          "text": "がんばって 練習して、中村せんしゅ（　　　）すばらしい せんしゅに なりたいです。",
           "options": [
-            "した",
-            "していた",
-            "している",
-            "する"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 10,
-          "text": "新しい　くつは（　　　）にくいです。",
-          "options": [
-            "はいて",
-            "はく",
-            "はか",
-            "はき"
+            "どおりの",
+            "そうな",
+            "ような",
+            "みたいな"
           ],
           "answer": 3
         },
         {
-          "number": 11,
-          "text": "この ナイフは くだものを 切る（　　　）使って います。",
+          "number": 48,
+          "text": "お<ruby>酒<rp>(</rp><rt>さけ</rt><rp>)</rp></ruby>も　たばこも　やめる（　　　）たいへんです。",
           "options": [
-            "のに",
+            "かは",
             "のは",
-            "のが",
-            "のを"
+            "のを",
+            "かで"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
-          "number": 12,
-          "text": "彼は 医者ですから、くすり（　　　）くわしいです。",
+          "number": 49,
+          "text": "卒業式の 後で、学生（　　　）<span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:\"Yu Mincho\",\"serif\"\"> </span></span></span>先生に 花が プレゼントされました。",
           "options": [
-            "で",
-            "が",
             "に",
-            "も"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 13,
-          "text": "Ａ「その仕事(しごと)、わたしがやりましょうか。」\n\nＢ「あ、いいですか。じゃ、（　　　）。」",
-          "options": [
-            "やります",
-            "やれます",
-            "やってください",
-            "やりましょう"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 14,
-          "text": "山田(やまだ)「これ、おいしいですね。田中(たなか)さんが、作(つく)りましたか。」\n\n田中(たなか)「はい、わたし（　　　）作(つく)れるので　かんたんでしたよ。」",
-          "options": [
-            "だけ",
-            "くらい",
-            "しか",
-            "でも"
+            "が",
+            "を",
+            "から"
           ],
           "answer": 3
-        },
-        {
-          "number": 15,
-          "text": "たくさん　ありますね。どれ（　　　）一つもらっても　いいですか。",
-          "options": [
-            "か",
-            "が",
-            "と",
-            "は"
-          ],
-          "answer": 0
         }
       ]
     },
     {
       "mondai": 7,
+      "part": "grammar",
       "title": "Điền sao",
       "description": "次の文の　★　に入る最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "A「もうすぐ、試験の結果　が　わかりますね。」\n\nB「はい。もし ★ です。」",
+          "number": 50,
+          "text": "かれは　いつも　<span class=\"content_underline\"> </span><span class=\"content_underline\"> </span><span class=\"content_underline\">★</span><span class=\"content_underline\"> </span>着いている。",
           "options": [
-            "来年も",
-            "つもり",
-            "受ける",
-            "受からなかったら"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 2,
-          "text": "ラン「田中さん、これから　食事でも　どうですか。」\n\n田中「すみません。ちょっと　 ★ です。」",
-          "options": [
-            "食べた",
-            "なん",
-            "ところ",
-            "今"
-          ],
-          "answer": 2
-        },
-        {
-          "number": 3,
-          "text": "家を ★ 母から　電話が　かかってきた。",
-          "options": [
-            "した",
-            "とき",
-            "に",
-            "出ようと"
+            "な",
+            "服",
+            "高そう",
+            "を"
           ],
           "answer": 1
         },
         {
-          "number": 4,
-          "text": "A「すみません。この　近くには　ありますか。」\n\nB「そこの ★ 右に　ありますよ。」",
+          "number": 51,
+          "text": "A「足、どうしたんですか。ちが　出て　いますよ。」\n\nB「<span class=\"content_underline\"> </span><span class=\"content_underline\"> </span><span class=\"content_underline\">★</span><span class=\"content_underline\"> </span>しまって。。。」",
           "options": [
-            "歩くと",
-            "まがって",
-            "５分くらい",
-            "かどを"
+            "電車に乗ろうと",
+            "走ったら",
+            "ころんで",
+            "思って"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
-          "number": 5,
-          "text": "１１月に入って、 ★ 。",
+          "number": 52,
+          "text": "わたしの国　は　南ですが、夏は<span class=\"content_underline\"> </span><span class=\"content_underline\"> </span><span class=\"content_underline\">★</span><span class=\"content_underline\"> </span>",
           "options": [
-            "寒く",
-            "きた",
-            "だんだん",
-            "なって"
+            "ほど",
+            "日本",
+            "ない",
+            "あつく"
           ],
           "answer": 3
+        },
+        {
+          "number": 53,
+          "text": "A「あれ？ケーキ、食べないの？」\n\nB「うん、<span class=\"content_underline\"> </span><span class=\"content_underline\"> </span><span class=\"content_underline\">★</span><span class=\"content_underline\"> </span>　ですよ。」",
+          "options": [
+            "いま、ダイエット中",
+            "けれど",
+            "食べたい",
+            "なん"
+          ],
+          "answer": 0
+        },
+        {
+          "number": 54,
+          "text": "A「うちの　子、外で<span class=\"content_underline\"> </span><span class=\"content_underline\"> </span><span class=\"content_underline\">★</span><span class=\"content_underline\"> </span>なんです。」\n\nB「あ、うちの　子も同じです。」",
+          "options": [
+            "たがらない",
+            "しんぱい",
+            "ので",
+            "あそび"
+          ],
+          "answer": 2
         }
       ]
     },
     {
       "mondai": 8,
+      "part": "grammar",
       "title": "Điền chỗ trống đoạn văn",
       "description": "次の文章を読んで、文章全体の内容を考えて、(1)から(5 )の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-      "passage": "つぎの文章(ぶんしょう)は、アパートに住(す)んでいる人(ひと)たちへのお知(し)らせです。\n\n\n<strong>アパートの皆(みな)<strong>さんへ</strong></strong>\n\n最近(さいきん)、ごみの捨(す)て方(かた)がとても悪(わる)くなってきました。1 分別(ぶんべつ)しないで、何(なん)でもいっしょに捨てる人がいます。アパートの近所(きんじょ)の人に迷惑(めいわく)です。きれいで住みやすいアパートにする 2、つぎのことを守(まも)りましょう。\n\n１．ごみは、決(き)められた日(ひ)に出(だ)しましょう。\n\n２．燃(も)えるごみは、決められた袋(ふくろ)に入(い)れて出しましょう。\n\n３．プラスチックは、洗(あら)ってから、袋に入れて出しましょ。　3 出してはいけません。\n\n４．粗大(そだい)ごみ（家具(かぐ)、電気製品(でんきせいひん)など）は、市役所(しやくしょ)4 連絡(れんらく)してから出しましょう。\n\n５．本(ほん)や雑誌(ざっし)、段(だん)ボールなどは、燃えるごみの日には出さないでください。資源(しげん)ごみの日に出してください。\n\n６．料理(りょうり)で使(つか)った油(あぶら)は、プラスチックなどの入れ物(もの)に入れて出しましょう。\n\n７．ごみを出すときは、5 曜日(ようび)、時間(じかん)、場所(ばしょ)を守ってください。\n\nサクラアパート管理人(かんりにん)",
       "questions": [
         {
-          "number": 1,
-          "text": "1",
-          "options": [
-            "すると",
-            "たとえば",
-            "しかし",
-            "だから"
-          ],
-          "answer": 1
-        },
-        {
-          "number": 2,
-          "text": "2",
-          "options": [
-            "のでは",
-            "ために",
-            "からに",
-            "ならは"
-          ],
-          "answer": 1
-        },
-        {
-          "number": 3,
-          "text": "3",
-          "options": [
-            "汚(よご)れたまま",
-            "汚れるまま",
-            "汚れてまま",
-            "汚られたまま"
-          ],
-          "answer": 0
-        },
-        {
-          "number": 4,
-          "text": "4",
+          "number": 55,
+          "text": "（１）",
           "options": [
             "が",
+            "は",
             "を",
-            "に",
-            "は"
+            "に"
           ],
-          "answer": 2
+          "answer": 1,
+          "passage": "今日、Ｎ４の　<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>が　<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。その　<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>で、マリアと　ノーイは、カルロスに　メールを　しました。\n\n<div class=\"content_block_highlight\">\nカルロス、<ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>、<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>してる？今日は　つかれたけど、終わって　ホッとしたね。試験 <span class=\"content_number_highlight\">1</span> どう　だった？<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は、<ruby>読解<rp>(</rp><rt>どっかい</rt><rp>)</rp></ruby>の　１<ruby>番<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>の　<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えが <span class=\"content_number_highlight\">2</span>・・・。\n\nマリア、ノーイ\n</div>\n\n<div class=\"content_block_highlight\">\n<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>も　わからなかったし <span class=\"content_number_highlight\">3</span> <ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>だなあ。\n\n読解の　１番は (2) に　したと　<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。\n\nおもカルロス\n</div>\n\n<div class=\"content_block_highlight\">\n読解の　<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>の　コーヒーの　<ruby>値段<rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>の　問題は <span class=\"content_number_highlight\">4</span>？ノーイと　私は（２）の　「500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>」を　えらんだけど。\n\nカルロスは、<ruby>聴解<rp>(</rp><rt>ちょうかい</rt><rp>)</rp></ruby>は　よく　できるよね。<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>は？\nマリア、ノーイ </div>\n\n<div class=\"content_block_highlight\"> コーヒーの　値段は　わからなかったけど、（２）の「500円」に　した。２が　<ruby>好<rt>す</rt></ruby>きだから、わからない　ところは、ぜんぶ（２）に　した。文法は&hellip;わすれた。\n\n<ruby>二人<rp>(</rp><rt>ふたり</rt><rp>)</rp></ruby> <span class=\"content_number_highlight\">5</span><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>から　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>びに　<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>くね。\n\nカルロス\n</div>"
         },
         {
-          "number": 5,
-          "text": "5",
+          "number": 56,
+          "text": "（２）",
           "options": [
-            "決められた",
-            "決める",
-            "決められて",
-            "決めて"
+            "<ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>なのだから",
+            "<ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>しました",
+            "<ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>なんだけど",
+            "<ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>してたから"
           ],
-          "answer": 0
+          "answer": 2,
+          "passage": "今日、Ｎ４の　<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>が　<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。その　<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>で、マリアと　ノーイは、カルロスに　メールを　しました。\n\n<div class=\"content_block_highlight\">\nカルロス、<ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>、<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>してる？今日は　つかれたけど、終わって　ホッとしたね。試験 <span class=\"content_number_highlight\">1</span> どう　だった？<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は、<ruby>読解<rp>(</rp><rt>どっかい</rt><rp>)</rp></ruby>の　１<ruby>番<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>の　<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えが <span class=\"content_number_highlight\">2</span>・・・。\n\nマリア、ノーイ\n</div>\n\n<div class=\"content_block_highlight\">\n<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>も　わからなかったし <span class=\"content_number_highlight\">3</span> <ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>だなあ。\n\n読解の　１番は (2) に　したと　<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。\n\nおもカルロス\n</div>\n\n<div class=\"content_block_highlight\">\n読解の　<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>の　コーヒーの　<ruby>値段<rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>の　問題は <span class=\"content_number_highlight\">4</span>？ノーイと　私は（２）の　「500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>」を　えらんだけど。\n\nカルロスは、<ruby>聴解<rp>(</rp><rt>ちょうかい</rt><rp>)</rp></ruby>は　よく　できるよね。<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>は？\nマリア、ノーイ </div>\n\n<div class=\"content_block_highlight\"> コーヒーの　値段は　わからなかったけど、（２）の「500円」に　した。２が　<ruby>好<rt>す</rt></ruby>きだから、わからない　ところは、ぜんぶ（２）に　した。文法は&hellip;わすれた。\n\n<ruby>二人<rp>(</rp><rt>ふたり</rt><rp>)</rp></ruby> <span class=\"content_number_highlight\">5</span><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>から　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>びに　<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>くね。\n\nカルロス\n</div>"
+        },
+        {
+          "number": 57,
+          "text": "（３）",
+          "options": [
+            "<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>も　わかったし",
+            "文法も　むずかしかった",
+            "文法も　やさしかったから",
+            "文法も　むずかしかったけど"
+          ],
+          "answer": 1,
+          "passage": "今日、Ｎ４の　<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>が　<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。その　<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>で、マリアと　ノーイは、カルロスに　メールを　しました。\n\n<div class=\"content_block_highlight\">\nカルロス、<ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>、<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>してる？今日は　つかれたけど、終わって　ホッとしたね。試験 <span class=\"content_number_highlight\">1</span> どう　だった？<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は、<ruby>読解<rp>(</rp><rt>どっかい</rt><rp>)</rp></ruby>の　１<ruby>番<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>の　<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えが <span class=\"content_number_highlight\">2</span>・・・。\n\nマリア、ノーイ\n</div>\n\n<div class=\"content_block_highlight\">\n<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>も　わからなかったし <span class=\"content_number_highlight\">3</span> <ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>だなあ。\n\n読解の　１番は (2) に　したと　<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。\n\nおもカルロス\n</div>\n\n<div class=\"content_block_highlight\">\n読解の　<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>の　コーヒーの　<ruby>値段<rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>の　問題は <span class=\"content_number_highlight\">4</span>？ノーイと　私は（２）の　「500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>」を　えらんだけど。\n\nカルロスは、<ruby>聴解<rp>(</rp><rt>ちょうかい</rt><rp>)</rp></ruby>は　よく　できるよね。<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>は？\nマリア、ノーイ </div>\n\n<div class=\"content_block_highlight\"> コーヒーの　値段は　わからなかったけど、（２）の「500円」に　した。２が　<ruby>好<rt>す</rt></ruby>きだから、わからない　ところは、ぜんぶ（２）に　した。文法は&hellip;わすれた。\n\n<ruby>二人<rp>(</rp><rt>ふたり</rt><rp>)</rp></ruby> <span class=\"content_number_highlight\">5</span><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>から　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>びに　<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>くね。\n\nカルロス\n</div>"
+        },
+        {
+          "number": 58,
+          "text": "（４）",
+          "options": [
+            "どれに　する",
+            "どうする",
+            "どうに　した",
+            "どれに　した"
+          ],
+          "answer": 3,
+          "passage": "今日、Ｎ４の　<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>が　<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。その　<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>で、マリアと　ノーイは、カルロスに　メールを　しました。\n\n<div class=\"content_block_highlight\">\nカルロス、<ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>、<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>してる？今日は　つかれたけど、終わって　ホッとしたね。試験 <span class=\"content_number_highlight\">1</span> どう　だった？<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は、<ruby>読解<rp>(</rp><rt>どっかい</rt><rp>)</rp></ruby>の　１<ruby>番<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>の　<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えが <span class=\"content_number_highlight\">2</span>・・・。\n\nマリア、ノーイ\n</div>\n\n<div class=\"content_block_highlight\">\n<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>も　わからなかったし <span class=\"content_number_highlight\">3</span> <ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>だなあ。\n\n読解の　１番は (2) に　したと　<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。\n\nおもカルロス\n</div>\n\n<div class=\"content_block_highlight\">\n読解の　<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>の　コーヒーの　<ruby>値段<rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>の　問題は <span class=\"content_number_highlight\">4</span>？ノーイと　私は（２）の　「500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>」を　えらんだけど。\n\nカルロスは、<ruby>聴解<rp>(</rp><rt>ちょうかい</rt><rp>)</rp></ruby>は　よく　できるよね。<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>は？\nマリア、ノーイ </div>\n\n<div class=\"content_block_highlight\"> コーヒーの　値段は　わからなかったけど、（２）の「500円」に　した。２が　<ruby>好<rt>す</rt></ruby>きだから、わからない　ところは、ぜんぶ（２）に　した。文法は&hellip;わすれた。\n\n<ruby>二人<rp>(</rp><rt>ふたり</rt><rp>)</rp></ruby> <span class=\"content_number_highlight\">5</span><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>から　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>びに　<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>くね。\n\nカルロス\n</div>"
+        },
+        {
+          "number": 59,
+          "text": "（５）",
+          "options": [
+            "いっしょに　いれば",
+            "いっしょに　いたなら",
+            "いっしょに　いたら",
+            "いっしょに　いるなら"
+          ],
+          "answer": 3,
+          "passage": "今日、Ｎ４の　<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>が　<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。その　<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>で、マリアと　ノーイは、カルロスに　メールを　しました。\n\n<div class=\"content_block_highlight\">\nカルロス、<ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>、<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>してる？今日は　つかれたけど、終わって　ホッとしたね。試験 <span class=\"content_number_highlight\">1</span> どう　だった？<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は、<ruby>読解<rp>(</rp><rt>どっかい</rt><rp>)</rp></ruby>の　１<ruby>番<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>の　<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えが <span class=\"content_number_highlight\">2</span>・・・。\n\nマリア、ノーイ\n</div>\n\n<div class=\"content_block_highlight\">\n<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>も　わからなかったし <span class=\"content_number_highlight\">3</span> <ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>だなあ。\n\n読解の　１番は (2) に　したと　<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。\n\nおもカルロス\n</div>\n\n<div class=\"content_block_highlight\">\n読解の　<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>の　コーヒーの　<ruby>値段<rp>(</rp><rt>ねだん</rt><rp>)</rp></ruby>の　問題は <span class=\"content_number_highlight\">4</span>？ノーイと　私は（２）の　「500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>」を　えらんだけど。\n\nカルロスは、<ruby>聴解<rp>(</rp><rt>ちょうかい</rt><rp>)</rp></ruby>は　よく　できるよね。<ruby>文法<rp>(</rp><rt>ぶんぽう</rt><rp>)</rp></ruby>は？\nマリア、ノーイ </div>\n\n<div class=\"content_block_highlight\"> コーヒーの　値段は　わからなかったけど、（２）の「500円」に　した。２が　<ruby>好<rt>す</rt></ruby>きだから、わからない　ところは、ぜんぶ（２）に　した。文法は&hellip;わすれた。\n\n<ruby>二人<rp>(</rp><rt>ふたり</rt><rp>)</rp></ruby> <span class=\"content_number_highlight\">5</span><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>から　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>びに　<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>くね。\n\nカルロス\n</div>"
         }
       ]
     },
     {
       "mondai": 9,
+      "part": "reading",
       "title": "Đọc ngắn",
       "description": "次の文章を読んで、後の問いに対する答えとして最もよいものを1・2・3・4から一つ選びなさい。",
-      "passages": [
-        "さいきんの　わかい　女の　人は　ふつうの　ふくの　まま　ジョギングして　いるのかと　思われるような　ふくそうで　走って　いる。しかし、着て　いるのは　まちがいなく　運動用の　ふくなのだ。見た　目が　かわいらしい、それらの　ふくは　運動する　ときに　じゃまに　なるのでは　ないかと　思えるほどがざりがついて　いたりする。わかい　女の　人は　運動する　ときも　どう　見られるかが　気に　なるらしい。マラソン大会などで　着て　いる　ふくで　多くの　人の　目を　集めて　いる　人も　いるそうだ。",
-        "ユースホステルは、だれでも安く泊(と)まれるホステルです。ドイツで生(う)まれ、日本には１９５１年に初めてできました。１９７０年ごろには５００以上(いじょう)ありましたが、今では約(やく)２２０になってしまいました。しかし、最近(さいきん)また人気(にんき)が出てきました。値段(ねだん)が安く、他の客(きゃく)と話ができるからです。若(わか)い時に泊(と)まったことがある５０代(だい)や６０代(だい)の人もよく利用するそうです。特に人気があるのは、昔(むかし)の学校を使っていたり、いろいろなイベントがあったりするユースホステルです。",
-        "これは 、 中村さんからアンナさんに届いたメールです。\n\n\nアンナさん\n\n体の具合(ぐあい) はどうですか。 熱(ねつ)は下がりましたか。\n\n今日の山田先生の授業 のノートを今度会ったときに貸します。明日授(じゅ)業(ぎょう)に出られるなら 、メールをください 。ノートを 持って行きます 。日本文学は、テストはありませんが,レポートを出さなければなりません。レポートのテーマは 、会ったときに説明します。\n\n\n中村",
-        "ホルヘさんが　部屋に　帰ると、ドアの前の袋が　かけてありました。袋の中に　手紙が　入っていました。\n\n\nホルヘさんへ\n\n先週借りたＤＶＤを　返しに来ましたが、ホルヘさんが　いなかったので、袋に　入れておきます。もう１枚は　まだ見終わっていないので、もう少し貸してください。１枚(まい)だけしか返(かえ)さなくて、ごめんなさい。お菓子(かし)は　お礼(れい)です。食(た)べてください。どうもありがとう。\n\nリー"
-      ],
       "questions": [
         {
-          "number": 1,
-          "text": "どんな　ふくが　人の　目を　集めて　いるのですか。",
+          "number": 60,
+          "text": "この　お知らせから、<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>に　ついて　わかる　ことは　何ですか。",
           "options": [
-            "かわいらしい　ふつうの　ふく",
-            "運動しにくい　ふく",
-            "運動用の　かわいらしい　ふく",
-            "町の　中で　みんなが　着て　いる　ふく"
+            "午後　10時に　<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>に　入って　いいです。",
+            "入り口に　オートバイを　とめては　いけません。",
+            "サッカーの　<ruby>練習<rp>(</rp><rt>れんしゅう</rt><rp>)</rp></ruby>を　しては　いけません。",
+            "たばこを　<ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>っても　いいです。"
           ],
-          "answer": 2
+          "answer": 2,
+          "passage": "<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>の　入り口に、この　お知らせが　あります。\n\n<div class=\"content_block_highlight\">\n<b><ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby><b>で　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby><b>ぶ　</b></b></b><strong><strong><strong>ときの　注意</strong></strong></strong>\n\n◆<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>が　開いて　いる時間は、午前　6時から　午後　9時です。これ<ruby>以外<rp>(</rp><rt>いがい</rt><rp>)</rp></ruby>の　時間は　入れません。\n\n◆自転車や　オートバイは、<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>の　入り口に　とめて　ください。中に　入れては　いけません。\n\n◆<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>の　中で、<ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>の　ことを　しては　いけません。\n\n・ボールを　使って　<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>ぶ　こと\n\n・たばこを　<ruby>吸<rp>(</rp><rt>す</rt><rp>)</rp></ruby>う　こと\n</div>"
         },
         {
-          "number": 2,
-          "text": "ユースホステルについて、書かれていることはどれですか。",
+          "number": 61,
+          "text": "どうして、ピーターは、さびしいと　<ruby>言<rp>(</rp><rt>い</rt><rp>)</rp></ruby>って　いますか。",
           "options": [
-            "初めて日本にできたのは１９７０年です。",
-            "値段(ねだん)が安くないので今は人気がありません。",
-            "若(わか)くない人たちもよく泊(と)まっています。",
-            "昔の学校は古いので、ユースホステルに使えません。"
+            "カルロスが、ピーターの　<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>に　<ruby>来<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>ないから",
+            "カルロスの　<ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>が、いそがしいから",
+            "カルロスが、<ruby>日本語教室<rp>(</rp><rt>にほんごきょうしつ</rt><rp>)</rp></ruby>を　３<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>も　休んだから",
+            "カルロスが、<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>で　<ruby>国<rp>(</rp><rt>くに</rt><rp>)</rp></ruby>へ　<ruby>帰<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>るから"
           ],
-          "answer": 2
+          "answer": 2,
+          "passage": "*　<ruby>日本語教室<rp>(</rp><rt>にほんごきょうしつ</rt><rp>)</rp></ruby>を　<ruby>休<rp>(</rp><rt>やす</rt><rp>)</rp></ruby>んで　いる　カルロスに、のり<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>から　メールが　<ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>きました。\n\n<div class=\"content_block_highlight\">\nカルロスさん、こんにちは。<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>、どうして　<ruby>休<rp>(</rp><rt>やす</rt><rp>)</rp></ruby>んだの？ずっと　<ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>って　いました。<ruby>今月<rp>(</rp><rt>こんげつ</rt><rp>)</rp></ruby>は、３回　休みましたね。\n\n<ruby>来週<rp>(</rp><rt>らいしゅう</rt><rp>)</rp></ruby>は、ゲームを　したり、お<ruby>茶<rp>(</rp><rt>ちゃ</rt><rp>)</rp></ruby>を　<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>んだりします。\n\nみんなで　待って　いるから、<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て　ください。\n\nのりこ\n</div>\n\n＊　ピーターからも　メールが　届きました。\n\n<div class=\"content_block_highlight\">\nカルロス、さびしいです。どうして　日本語教室を　３回も　休みましたか？\n\n<ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>が　いそがしいですか？<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>ですか？<ruby>心配<rp>(</rp><rt>しんぱい</rt><rp>)</rp></ruby>です・・・。\n\nピータ\n</div>"
         },
         {
-          "number": 3,
-          "text": "アンナさんは、 中村さんに会ったとき何をしますか 。",
+          "number": 62,
+          "text": "この文章 を書いた人は 、今どう思っていますか 。",
           "options": [
-            "メールを送って 、 ノートを貸してもらいます。",
-            "ノートを借りて 、レポートの説明 を 聞きます。",
-            "ノートを貸して 、レポートの説明 をします。",
-            "ノートを返(かえ)して 、レポートを出します。"
+            "<ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby>は<ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>かなほう がいい 。",
+            "<ruby>海岸<rp>(</rp><rt>かいがん</rt><rp>)</rp></ruby>は にぎやか なほうが いい 。",
+            "夏の海岸はうるさくて<ruby>困<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>る 。",
+            "<ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby>で<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>ぶのはやめてほしい 。"
           ],
-          "answer": 1
+          "answer": 1,
+          "passage": "わたしの家の近くに <ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby>があります 。この<ruby>海岸<rp>(</rp><rt>かいがん</rt><rp>)</rp></ruby>には 、毎年夏 になるとおおぜいの人が来ます 。 <ruby>海岸<rp>(</rp><rt>かいがん</rt><rp>)</rp></ruby>で<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>んでいる人の声や音楽 が わたしの家まで聞こえてきます。わたしは夏の <ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby> はうるさくて<ruby>困<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>ると思っていまし た 。しかし 、今年の夏は天気が悪いので 、<ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby>は人が少なくて 、 <ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>かです 。 楽しかいがんそうに<ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>ったり 、 <ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>んだりしている人もいません 。こんなさびしい <ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby> は 夏 の <ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby> らしくありません 。さびしい<ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby>を見ていたら 、わたしの考えも<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わりました 。 夏の<ruby>海<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>岸<rp>(</rp><rt>がん</rt><rp>)</rp></ruby> は人 が多いほうがいいと思うように なりまし た 。"
         },
         {
-          "number": 4,
-          "text": "袋の中には何が入っていましたか。",
+          "number": 63,
+          "text": "このくすりを<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>んではいけないのは、どんな<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>ですか。",
           "options": [
-            "手紙とＤＶＤが１枚",
-            "手紙とＤＶＤが２枚",
-            "手紙とＤＶＤが１枚とお菓子",
-            "手紙(てがみ)とＤＶＤが２枚(まい)とお菓子"
+            "とてもつかれている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>\n\n<ruby><rt></rt><rp>)</rp></ruby>",
+            "ふとっている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>",
+            "いま<ruby>小学校<rp>(</rp><rt>しょうがっこう</rt><rp>)</rp></ruby>に<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>っている<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>ども",
+            "これから<ruby>自動車<rp>(</rp><rt>じどうしゃ</rt><rp>)</rp></ruby>を<ruby>運転<rp>(</rp><rt>うんてん</rt><rp>)</rp></ruby>する<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>"
           ],
-          "answer": 2
+          "answer": 3,
+          "passage": "このくすりは、<ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>をしすぎてつかれたとき、<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>ばかりで<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>が<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>ないとき、なんとなく<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が<ruby>重<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>いときなどに<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>んでくだい。<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>にやさしいくすりですが、<ruby>少<rp>(</rp><rt>すこ</rt><rp>)</rp></ruby>しねむくなることがありますので、<ruby>運転<rp>(</rp><rt>うんてん</rt><rp>)</rp></ruby>する<ruby>前<rp>(</rp><rt>まえ</rt><rp>)</rp></ruby>にはお<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>みにならないでください。また、<ruby>小学校<rp>(</rp><rt>しょうがっこう</rt><rp>)</rp></ruby>に<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>る<ruby>前<rp>(</rp><rt>まえ</rt><rp>)</rp></ruby>のお<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>さんにも<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>ませないでください。"
         }
       ]
     },
     {
       "mondai": 10,
+      "part": "reading",
       "title": "Đọc dài",
       "description": "次の文章を読んで、後の問いに対する答えとして最もよいものを1・2・3・4から一つ選びなさい。",
-      "passages": [
-        "みなさんの　クラスは　じゅぎょうちゅう　静かですか。これは　ある　大学の　学長の　話です。「私は　じゅぎょうちゅう　おしゃべりを　する　学生が　多くて、ほんとうに　こまって　います。とても　うるさくて、うしろの　席の　学生なんか、私の　話が　ほとんど　聞き取れないん　じゃないかと　思う。その　ため、まじめな　学生や　留学生が　すごく　めいわくして　います。私は　大な　声で　おしゃべりして　いる　学生が　いると、じゅぎょうを　とちゅうで　やめて、その　学生を　じっと　見る　ことに　して　います。そう　すると、少しは　こうかが　ある　ようです。ですから、先生方も　どうぞ、その　ような　学生たちには　強く　注意なさって　ください。そして、それでも　どうしても　おしゃべりを　やめない　学生には、勉強したくないなら、じゅぎょうに　出席する　ひつようは　ないと　言って　やって　ください。"
-      ],
       "questions": [
         {
-          "number": 1,
-          "text": "学長は　だれに　話して　いますか。",
+          "number": 64,
+          "text": "<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い 人たちが、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないのは、どうしてですか。",
           "options": [
-            "大学の　先生方に　話して　います。",
-            "学生たち　全員に　話して　います。",
-            "おしゃべりを　やめない　学生に　話して　います。",
-            "まじめな　学生や　留学生に　話して　います。"
+            "<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby> おそくまで <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きて ​​​​​​​いるから。",
+            "<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>しないから。",
+            "<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>くて <ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>だから。",
+            "おなかが いたいから。"
           ],
-          "answer": 0
+          "answer": 0,
+          "passage": "<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べな人がふえています。とくに2<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>（20〜29<ruby>才<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>）の<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い人たちにふえています。20<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>の<ruby>男<rp>(</rp><rt>おとこ</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では3人に1人が、<ruby>女<rp>(</rp><rt>おんな</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では5人に1人が、<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べていないそうです。どうして<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないのでしょうか。それは、<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くなったからです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きていると、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>おきてもおなかがすないのです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>は8<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までに<ruby>晩<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べて12<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までにねるといいそうです。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないと<ruby>午前中<rp>(</rp><rt>ごぜんちゅう</rt><rp>)</rp></ruby>のしごとや<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>がよくできない<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いようです。また、<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>になる<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いのです。\n\nある<ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>では、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>がふえているので、<ruby>週<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>1<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>、<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>で<ruby>食事<rp>(</rp><rt>しょくじ</rt><rp>)</rp></ruby>を<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>することにしました。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>はやく<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>に<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>や、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>うがくせい間がない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>が、りょうしているそうです。子どもたちはよろこんでいますが、<ruby>親<rp>(</rp><rt>おや</rt><rp>)</rp></ruby>の中には「朝ごはんは、<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>で<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べさせるようにしたい」という<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>もあるそうです。"
         },
         {
-          "number": 2,
-          "text": "学長は　じゅぎょうちゅう　大きな　声で　おしゃべりして　いる　学生に　対して　どう　しますか。",
+          "number": 65,
+          "text": "<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを <ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないと どう なりますか。",
           "options": [
-            "じゅぎょうを　とちゅうで　やめて、大きな　声で　注意します。",
-            "じゅぎょうを　とちゅうで　やめて、おしゃべりして　いる　学生に部屋を出させる。",
-            "じゅぎょうを　とちゅうで　やめて、部屋から　出て　いきます。",
-            "じゅぎょうを　とちゅうで　やめて、おしゃべりして　いる　学生を　じっと　見ます。"
+            "<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ねて しまいます。",
+            "しごとや <ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>を します。",
+            "<ruby>病院<rp>(</rp><rt>びょういん</rt><rp>)</rp></ruby>へ <ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きます。",
+            "<ruby>午前中<rp>(</rp><rt>ごぜんちゅう</rt><rp>)</rp></ruby> しごとや <ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>が でき なくなります。"
           ],
-          "answer": 3
+          "answer": 3,
+          "passage": "<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べな人がふえています。とくに2<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>（20〜29<ruby>才<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>）の<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い人たちにふえています。20<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>の<ruby>男<rp>(</rp><rt>おとこ</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では3人に1人が、<ruby>女<rp>(</rp><rt>おんな</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では5人に1人が、<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べていないそうです。どうして<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないのでしょうか。それは、<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くなったからです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きていると、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>おきてもおなかがすないのです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>は8<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までに<ruby>晩<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べて12<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までにねるといいそうです。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないと<ruby>午前中<rp>(</rp><rt>ごぜんちゅう</rt><rp>)</rp></ruby>のしごとや<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>がよくできない<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いようです。また、<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>になる<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いのです。\n\nある<ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>では、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>がふえているので、<ruby>週<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>1<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>、<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>で<ruby>食事<rp>(</rp><rt>しょくじ</rt><rp>)</rp></ruby>を<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>することにしました。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>はやく<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>に<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>や、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>うがくせい間がない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>が、りょうしているそうです。子どもたちはよろこんでいますが、<ruby>親<rp>(</rp><rt>おや</rt><rp>)</rp></ruby>の中には「朝ごはんは、<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>で<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べさせるようにしたい」という<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>もあるそうです。"
         },
         {
-          "number": 3,
-          "text": "学長は　じゅぎょうちゅう　おしゃべりを　する　学生が　多いと、特に　どんな　人たちが　めいわくすると　言って　いますか。",
+          "number": 66,
+          "text": "ある <ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>が はじめた ことは、何ですか。",
           "options": [
-            "留学生が　みんな　めいわくします。",
-            "うしろの　席の　学生が　めいわくします。",
-            "まじめな　学生や　留学生が　めいわくします。",
-            "おしゃべりを　する　学生が　めいわくします。"
+            "<ruby>毎日<rp>(</rp><rt>まいにち</rt><rp>)</rp></ruby><ruby>食事<rp>(</rp><rt>しょくじ</rt><rp>)</rp></ruby>を　<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>する　こと\n\n<br />\n<ruby><rp>(</rp></ruby>",
+            "<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby> はやく <ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>する こと",
+            "<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby> はやく <ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する こと",
+            "<ruby>週<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>1<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby> ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を　<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>する　こと"
           ],
-          "answer": 2
+          "answer": 3,
+          "passage": "<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べな人がふえています。とくに2<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>（20〜29<ruby>才<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>）の<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い人たちにふえています。20<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>の<ruby>男<rp>(</rp><rt>おとこ</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では3人に1人が、<ruby>女<rp>(</rp><rt>おんな</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では5人に1人が、<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べていないそうです。どうして<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないのでしょうか。それは、<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くなったからです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きていると、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>おきてもおなかがすないのです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>は8<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までに<ruby>晩<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べて12<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までにねるといいそうです。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないと<ruby>午前中<rp>(</rp><rt>ごぜんちゅう</rt><rp>)</rp></ruby>のしごとや<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>がよくできない<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いようです。また、<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>になる<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いのです。\n\nある<ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>では、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>がふえているので、<ruby>週<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>1<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>、<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>で<ruby>食事<rp>(</rp><rt>しょくじ</rt><rp>)</rp></ruby>を<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>することにしました。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>はやく<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>に<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>や、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>うがくせい間がない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>が、りょうしているそうです。子どもたちはよろこんでいますが、<ruby>親<rp>(</rp><rt>おや</rt><rp>)</rp></ruby>の中には「朝ごはんは、<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>で<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べさせるようにしたい」という<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>もあるそうです。"
         },
         {
-          "number": 4,
-          "text": "学長は　先生方に　おしゃべりを　やめない　学生に　対して　何と　言って　くださいと　言いましたか。",
+          "number": 67,
+          "text": "<u>「<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby><u>ごはんは、<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby><u>で<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby><u>べさせるようにしたい」</u></u></u></u>は、だれの<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>ですか。",
           "options": [
-            "「小さな　声なら　かまわないと　言って　ください。」",
-            "「おしゃべりしても　大丈夫だと　言って　ください。」",
-            "「となりの　人を　じっと　見なさいと　言って　ください。」",
-            "「勉強したくないなら、じゅぎょうに　出席する　ひつようは　ないと　言って　ください。」"
+            "<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>の<ruby>親<rp>(</rp><rt>おや</rt><rp>)</rp></ruby>",
+            "<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>",
+            "<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>たち",
+            "<ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>"
           ],
-          "answer": 3
+          "answer": 0,
+          "passage": "<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べな人がふえています。とくに2<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>（20〜29<ruby>才<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>）の<ruby>若<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>い人たちにふえています。20<ruby>才代<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby>の<ruby>男<rp>(</rp><rt>おとこ</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では3人に1人が、<ruby>女<rp>(</rp><rt>おんな</rt><rp>)</rp></ruby>の<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>では5人に1人が、<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べていないそうです。どうして<ruby>朝食<rp>(</rp><rt>ちょうしょく</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないのでしょうか。それは、<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くなったからです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>おそくまで<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きていると、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>おきてもおなかがすないのです。<ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby>は8<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までに<ruby>晩<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べて12<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>までにねるといいそうです。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べないと<ruby>午前中<rp>(</rp><rt>ごぜんちゅう</rt><rp>)</rp></ruby>のしごとや<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>がよくできない<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いようです。また、<ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>になる<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>も<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>いのです。\n\nある<ruby>中学校<rp>(</rp><rt>ちゅうがっこう</rt><rp>)</rp></ruby>では、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>がふえているので、<ruby>週<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>1<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>、<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>で<ruby>食事<rp>(</rp><rt>しょくじ</rt><rp>)</rp></ruby>を<ruby>用意<rp>(</rp><rt>ようい</rt><rp>)</rp></ruby>することにしました。<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>はやく<ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>に<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>や、<ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べる<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>うがくせい間がない<ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>が、りょうしているそうです。子どもたちはよろこんでいますが、<ruby>親<rp>(</rp><rt>おや</rt><rp>)</rp></ruby>の中には「朝ごはんは、<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>で<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べさせるようにしたい」という<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>もあるそうです。"
         }
       ]
     },
     {
       "mondai": 11,
+      "part": "reading",
       "title": "Đọc tìm thông tin",
       "description": "下のページを見て、下の問いに対する答えとして最もよいものを、1・2・3・4から1つ選びなさい。",
       "questions": [
         {
-          "number": 1,
-          "text": "お母さんは　子ども 　2 人に　水泳を　習わせたいです。自分は　ダンスを　習いたいです。同じ　時間に　なるように　するには、どの　ダンス教室に　申し込んだら　いいですか。",
+          "number": 68,
+          "text": "友だち4人でたっきゅうがしたいです。はじめてなので先生に<ruby>教<rp>(</rp><rt>おし</rt><rp>)</rp></ruby>えてもらいたいです。<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>は15日です。いちばん<ruby>早<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>くできるのはどれですか。",
           "options": [
-            "ダンス教室 A",
-            "ダンス教室 B",
-            "ダンス教室 C",
-            "ダンス教室 D"
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>2<ruby>月曜<rp>(</rp><rt>げつよう</rt><rp>)</rp></ruby>に西町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>3<ruby>月曜<rp>(</rp><rt>げつよう</rt><rp>)</rp></ruby>に東町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>3<ruby>木曜<rp>(</rp><rt>もくよう</rt><rp>)</rp></ruby>に西町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>4<ruby>月曜<rp>(</rp><rt>げつよう</rt><rp>)</rp></ruby>に西町で"
           ],
-          "answer": 3
+          "answer": 3,
+          "passage": "<strong> さくら</strong><strong><ruby>市体育館利用案内<rp>(</rp><rt>したいいくかんりようあんない</rt><rp>)</rp></ruby></strong>\n\n〇<ruby>料金<rp>(</rp><rt>りょうきん</rt><rp>)</rp></ruby>：おとな２００円、小中学生１００円。\n\n〇くつ<ruby>以外<rp>(</rp><rt>いがい</rt><rp>)</rp></ruby>の<ruby>道具<rp>(</rp><rt>どうぐ</rt><rp>)</rp></ruby>は<ruby>借<rp>(</rp><rt>か</rt><rp>)</rp></ruby>りられます。\n\n<strong>たっきゅう</strong>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:88px;\">\n曜日\n</td>\n<td style=\"width:48px;\">\n場所\n</td>\n<td style=\"width:108px;\">\n区分\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第１木曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第２月曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第３木曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n第３月曜日\n</td>\n<td style=\"width:48px;height:25px;\">\n西町\n</td>\n<td style=\"width:108px;height:25px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n\n</td>\n<td style=\"width:48px;height:25px;\">\n東町\n</td>\n<td style=\"width:108px;height:25px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n第４月曜日\n</td>\n<td style=\"width:48px;height:25px;\">\n西町\n</td>\n<td style=\"width:108px;height:25px;\">\n一般※\n</td>\n</tr>\n</tbody>\n</table>\n\n９０分\n\n<strong>バレーボール</strong><span style=\"font-size:14pt\"><span style=\"line-height:107%\"><span new=\"\" roman=\"\" style=\"font-family:\" times=\"\"><span style=\"font-size:12.0pt\"><span mincho=\"\" style=\"font-family:\" yu=\"\"></span></span></span></span></span>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:102px;\">\n曜日\n</td>\n<td style=\"width:54px;\">\n場所\n</td>\n<td style=\"width:96px;\">\n区分\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第１土曜日\n</td>\n<td style=\"width:54px;\">\n一般\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n南町\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第２土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第３土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第４土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n</tbody>\n</table>\n\n（７５分）\n\n〇１０人以上での利用は「グループ」、それ以下での利用は「一般」となります。\n\n★「グループ」は、<u>必ず１週間前までによやくしてください。</u>\n\n（「一般」は、よやくのひつようはありません。）\n\n※は先生に教えてもらえます。\n\nお問い合わせ:さくら市スポーツ課　TEL:0159-333-ｘｘｘｘ\n\n今月のカレンダー\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:228px;\">\n<u>日　月　火　水　もく　金　土</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>1 2 3 4 5 6</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>7 8 9 10 11 12 13 </u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>14 15 16 17 18 19 2 0</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>21 22 23 24 25 26 27</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>28 29 30 31</u>\n</td>\n</tr>\n</tbody>\n</table>"
         },
         {
-          "number": 2,
-          "text": "お母さんは　体そう教室に　行きたいです。どの　体そう教室に　もうしこめますか。",
+          "number": 69,
+          "text": "友だち12人でバレーボールがしたいです。今日は10日です。ー番早くでできるのはどれですか。",
           "options": [
-            "体そう教室 A",
-            "体そう教室 B",
-            "体そう教室 C",
-            "体そう教室 D"
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>2<ruby>土曜<rp>(</rp><rt>どよう</rt><rp>)</rp></ruby>に北町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>2<ruby>土曜<rp>(</rp><rt>どよう</rt><rp>)</rp></ruby>に南町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>4<ruby>土曜<rp>(</rp><rt>どよう</rt><rp>)</rp></ruby>に北町で",
+            "<ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>4<ruby>土曜<rp>(</rp><rt>どよう</rt><rp>)</rp></ruby>に南町で"
           ],
-          "answer": 0
+          "answer": 3,
+          "passage": "<strong> さくら</strong><strong><ruby>市体育館利用案内<rp>(</rp><rt>したいいくかんりようあんない</rt><rp>)</rp></ruby></strong>\n\n〇<ruby>料金<rp>(</rp><rt>りょうきん</rt><rp>)</rp></ruby>：おとな２００円、小中学生１００円。\n\n〇くつ<ruby>以外<rp>(</rp><rt>いがい</rt><rp>)</rp></ruby>の<ruby>道具<rp>(</rp><rt>どうぐ</rt><rp>)</rp></ruby>は<ruby>借<rp>(</rp><rt>か</rt><rp>)</rp></ruby>りられます。\n\n<strong>たっきゅう</strong>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:88px;\">\n曜日\n</td>\n<td style=\"width:48px;\">\n場所\n</td>\n<td style=\"width:108px;\">\n区分\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第１木曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第２月曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n第３木曜日\n</td>\n<td style=\"width:48px;\">\n西町\n</td>\n<td style=\"width:108px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;\">\n\n</td>\n<td style=\"width:48px;\">\n東町\n</td>\n<td style=\"width:108px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n第３月曜日\n</td>\n<td style=\"width:48px;height:25px;\">\n西町\n</td>\n<td style=\"width:108px;height:25px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n\n</td>\n<td style=\"width:48px;height:25px;\">\n東町\n</td>\n<td style=\"width:108px;height:25px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:88px;height:25px;\">\n第４月曜日\n</td>\n<td style=\"width:48px;height:25px;\">\n西町\n</td>\n<td style=\"width:108px;height:25px;\">\n一般※\n</td>\n</tr>\n</tbody>\n</table>\n\n９０分\n\n<strong>バレーボール</strong><span style=\"font-size:14pt\"><span style=\"line-height:107%\"><span new=\"\" roman=\"\" style=\"font-family:\" times=\"\"><span style=\"font-size:12.0pt\"><span mincho=\"\" style=\"font-family:\" yu=\"\"></span></span></span></span></span>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:102px;\">\n曜日\n</td>\n<td style=\"width:54px;\">\n場所\n</td>\n<td style=\"width:96px;\">\n区分\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第１土曜日\n</td>\n<td style=\"width:54px;\">\n一般\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n南町\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第２土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第３土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般※\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n第４土曜日\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\n一般\n</td>\n</tr>\n<tr>\n<td style=\"width:102px;\">\n\n</td>\n<td style=\"width:54px;\">\n\n</td>\n<td style=\"width:96px;\">\nグループ★\n</td>\n</tr>\n</tbody>\n</table>\n\n（７５分）\n\n〇１０人以上での利用は「グループ」、それ以下での利用は「一般」となります。\n\n★「グループ」は、<u>必ず１週間前までによやくしてください。</u>\n\n（「一般」は、よやくのひつようはありません。）\n\n※は先生に教えてもらえます。\n\nお問い合わせ:さくら市スポーツ課　TEL:0159-333-ｘｘｘｘ\n\n今月のカレンダー\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td style=\"width:228px;\">\n<u>日　月　火　水　もく　金　土</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>1 2 3 4 5 6</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>7 8 9 10 11 12 13 </u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>14 15 16 17 18 19 2 0</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>21 22 23 24 25 26 27</u>\n</td>\n</tr>\n<tr>\n<td style=\"width:228px;\">\n<u>28 29 30 31</u>\n</td>\n</tr>\n</tbody>\n</table>"
         }
       ]
     },
     {
       "mondai": 12,
+      "part": "listening",
       "title": "Nghe Mondai 1",
       "description": "この問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
-      "audioUrl": "https://storage.dekiru.vn/data/mondai-choukai/N4/4.16.mp3",
-      "duration": 23.475,
       "questions": [
         {
-          "number": 1,
-          "text": "<img alt=\"\" src=\"https://storage.dekiru.vn//Data/2016/12/02/03-636162905683135782.jpg\" />\n\n\n\n\n\n\n\n)",
+          "number": 70,
+          "text": "",
+          "options": [
+            "ホットコーヒーを　今　持ってきてもらう",
+            "ホットコーヒーを　後で　持ってきてもらう",
+            "アイスコーヒーを　後で　持ってきてもらう",
+            "アイスコーヒーを　今　持ってきてもらう"
+          ],
+          "answer": 3,
+          "audioURL": "https://drive.google.com/file/d/1Afi6SU-vn6o6p4zmRI2KV5H1iXP951tb/view"
+        },
+        {
+          "number": 71,
+          "text": "",
+          "options": [
+            "2 まい",
+            "4 まい",
+            "5 まい",
+            "6 まい"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1Eief6xu0zbz35T6eZMCcs4Y1-UK70zBj/view"
+        },
+        {
+          "number": 72,
+          "text": "https://drive.google.com/file/d/1PKh1bdMxwES2_eyzge7hCL78miDmIRlw/view",
           "options": [
             "ア イ",
             "ア エ",
@@ -867,173 +908,330 @@
             "イ エ"
           ],
           "answer": 3,
-          "imageUrl": "https://storage.dekiru.vn//Data/2016/12/02/03-636162905683135782.jpg"
+          "audioURL": "https://drive.google.com/file/d/1lY5f5qlGqTD59MWA3wlFcGViID01xmxE/view"
         },
         {
-          "number": 2,
-          "text": "<img alt=\"\" src=\"https://storage.dekiru.vn/Data/2018/01/04/n4-d-1-84-1-636506682924016247.jpg\" />",
-          "options": [
-            "イ　ウ　エ",
-            "ア　イ　ウ",
-            "イ　ウ　オ",
-            "ア　ウ　エ"
-          ],
-          "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/04/n4-d-1-84-1-636506682924016247.jpg"
-        },
-        {
-          "number": 4,
-          "text": "<img src=\"https://storage.dekiru.vn//Data/2016/12/02/04-636162905672823488.jpg\" />",
+          "number": 73,
+          "text": "https://drive.google.com/file/d/1zTaNDHl31rQMW5wdwbuPhpO6Alh_NBk-/view",
           "options": [
             "1",
             "2",
             "3",
             "4"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1GDGL5IDTXAPmQ0nkSrLM8CxQi_T648st/view"
+        },
+        {
+          "number": 74,
+          "text": "",
+          "options": [
+            "まるい　ほうを　上に　する",
+            "まるい　ほうを　下に　する",
+            "ほそく　なって　いる　ほうを　上に　する",
+            "どちらでも　いい"
+          ],
+          "answer": 0,
+          "audioURL": "https://drive.google.com/file/d/1geiInDBrd7JkHt_Bw-wIZ2kBncKnQl8H/view"
+        },
+        {
+          "number": 75,
+          "text": "",
+          "options": [
+            "パソコンきょうしつに　行く",
+            "しらかわさんに　聞く",
+            "おみせの人に　聞く",
+            "本を　読む"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1IDCUv-q0mUZL2R5RcV9SiwN-XpcVuPng/view"
+        },
+        {
+          "number": 76,
+          "text": "",
+          "options": [
+            "午後1時",
+            "午後1時半",
+            "午後2時",
+            "午後2時半"
           ],
           "answer": 2,
-          "imageUrl": "https://storage.dekiru.vn//Data/2016/12/02/04-636162905672823488.jpg"
+          "audioURL": "https://drive.google.com/file/d/15q4TqUQfNTwyYGfs4MInX_zzOqbD7YSW/view"
         },
         {
-          "number": 5,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2018/01/03/n4-b-1-1-5-636505910208449685.jpg\" />",
+          "number": 77,
+          "text": "",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/03/n4-b-1-1-5-636505910208449685.jpg"
-        },
-        {
-          "number": 7,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-1-3-636505910212430992.jpg\" />",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-1-3-636505910212430992.jpg"
-        },
-        {
-          "number": 2,
-          "text": "<img src=\"https://storage.dekiru.vn//Data/2016/12/02/05-636162905657503394.jpg\" />",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn//Data/2016/12/02/05-636162905657503394.jpg"
-        },
-        {
-          "number": 3,
-          "text": "<img alt=\"\" src=\"https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-1-4-636505910213010940.jpg\" />",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-1-4-636505910213010940.jpg"
-        },
-        {
-          "number": 5,
-          "text": "<img src=\"https://storage.dekiru.vn//Data/2016/12/24/5-636181686947245426.jpg\" />",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "服を　あらう",
+            "料理を　作る",
+            "お金を　もらう",
+            "お金を　はらう"
           ],
           "answer": 3,
-          "imageUrl": "https://storage.dekiru.vn//Data/2016/12/24/5-636181686947245426.jpg"
+          "audioURL": "https://drive.google.com/file/d/1uQ09hymm-5vCTyy3gCxz3OXgIBgRJoBv/view"
         }
       ]
     },
     {
       "mondai": 13,
+      "part": "listening",
       "title": "Nghe Mondai 2",
       "description": "この問題では、まず質問を聞いてください。そのあと、問題用紙の選択肢を読んでください。読む時間があります。それから、話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
-      "audioUrl": "https://storage.dekiru.vn/data/mondai-choukai/N4/4.17.mp3",
-      "duration": 31.247833,
-      "questions": []
+      "questions": [
+        {
+          "number": 78,
+          "text": "",
+          "options": [
+            "くうこうに　行く",
+            "フランスに　行く",
+            "ひっこしする",
+            "メールする"
+          ],
+          "answer": 0,
+          "audioURL": "https://drive.google.com/file/d/1kf2cCZqDBY7MWEitywqaKbG9EOZcqX-8/view"
+        },
+        {
+          "number": 79,
+          "text": "",
+          "options": [
+            "りょうしん",
+            "あね",
+            "いもうと",
+            "おとうと"
+          ],
+          "answer": 3,
+          "audioURL": "https://drive.google.com/file/d/1qd61X-1quABO20pe1-Fc39wVIbjo1e9k/view"
+        },
+        {
+          "number": 80,
+          "text": "",
+          "options": [
+            "5時",
+            "5時15分",
+            "5時半",
+            "5時45分"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1LmLeQqcW9ZiSD_ywewO3CUd30_cmTHSg/view"
+        },
+        {
+          "number": 81,
+          "text": "",
+          "options": [
+            "１０時",
+            "１０時１０分",
+            "１０時２０分",
+            "１０時３０分"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1RvNjjz8xGVrpT1taOHzZ1jPxtbeJfMBJ/view"
+        },
+        {
+          "number": 82,
+          "text": "",
+          "options": [
+            "フランスりょうりを　つくる",
+            "日本りょうりを　つくる",
+            "りょうりの　ざっしを　つくる",
+            "りょうりの　しゃしんを　とる"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1NXQ_8ePL-uLn5_1gSRnK1ZDRSTFDUg3T/view"
+        },
+        {
+          "number": 83,
+          "text": "",
+          "options": [
+            "大学を　やめるから",
+            "休みがと　れないから",
+            "長い間休むから",
+            "新しいしごとを　するから"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1vmGpas_KDJxdBAe4oxdgbojDDnHo-3GO/view"
+        },
+        {
+          "number": 84,
+          "text": "",
+          "options": [
+            "かようび",
+            "すいようび",
+            "もくようび",
+            "きんようび"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1Qc9qIrPNF4ychppNFgfyUp-vjRmCYQIH/view"
+        }
+      ]
     },
     {
       "mondai": 14,
+      "part": "listening",
       "title": "Xem tranh chọn đáp án",
       "description": "この問題では、絵を　見ながら　質問を　聞いて　ください。やじるし（→）の　人は　何と　言いますか。1から3の　中から、いちばん　いいものを　ひとつ　選んで　ください。",
-      "audioUrl": "https://storage.dekiru.vn/data/mondai-choukai/N4/4.19.mp3",
-      "duration": 23.135917,
       "questions": [
         {
-          "number": 1,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2018/01/11/n4-u-2-3-2-636512852653006686.jpg\" />",
+          "number": 85,
+          "text": "https://drive.google.com/file/d/1ufQOnmbFktM_gsQtautc8xWAORc85-Lx/view",
           "options": [
             "1",
             "2",
             "3"
           ],
-          "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/11/n4-u-2-3-2-636512852653006686.jpg"
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1wf28Kvubk9Zhn6IYYKMfKCwWzxsSzJtb/view"
         },
         {
-          "number": 2,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2018/01/11/n4-u-3-1-5-636512829602208202.jpg\" />",
+          "number": 86,
+          "text": "https://drive.google.com/file/d/1vRcD9FrPGGIt6vw0y7qRapKLifUw96Lm/view",
           "options": [
             "1",
             "2",
             "3"
           ],
           "answer": 0,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/11/n4-u-3-1-5-636512829602208202.jpg"
+          "audioURL": "https://drive.google.com/file/d/1SSVj0VsqaSmn8li3PZMlLL_IrOPUZ51_/view"
         },
         {
-          "number": 3,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-3-5-636505910217451730.jpg\" />",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ],
-          "answer": 2,
-          "imageUrl": "https://storage.dekiru.vn/Data/2018/01/03/n4-b-2-3-5-636505910217451730.jpg"
-        },
-        {
-          "number": 4,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2017/12/27/n4-g-1-3-3-636499854493052008.jpg\" />",
+          "number": 87,
+          "text": "https://drive.google.com/file/d/1Q9GEianHsvnhoPNGOCXCfNL8EEE2oK3l/view",
           "options": [
             "1",
             "2",
             "3"
           ],
           "answer": 1,
-          "imageUrl": "https://storage.dekiru.vn/Data/2017/12/27/n4-g-1-3-3-636499854493052008.jpg"
+          "audioURL": "https://drive.google.com/file/d/1grotof9s0oxO-1hCWlwxvUhb2umVpsWq/view"
         },
         {
-          "number": 5,
-          "text": "<img src=\"https://storage.dekiru.vn/Data/2017/12/27/n4-g-1-3-4-636499854467786257.jpg\" />",
+          "number": 88,
+          "text": "https://drive.google.com/file/d/1Jz0esMdMNUUI2CHlQ1JIqz4AA5Qp71if/view",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/11rnUi7FwBfgb6F6Oce7wXBvq-WzYFFWw/view"
+        },
+        {
+          "number": 89,
+          "text": "https://drive.google.com/file/d/1H72wFy3zYoevqsaDd6WJPBl9K1va3t2T/view",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 0,
+          "audioURL": "https://drive.google.com/file/d/1eD15MmStcM7abtA22-MPVtPW8M0QBgtu/view"
+        }
+      ]
+    },
+    {
+      "mondai": 15,
+      "part": "listening",
+      "title": "Chọn câu trả lời",
+      "description": "この問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選らんでください。",
+      "questions": [
+        {
+          "number": 90,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1sqNj5usDrQej7E2gBXxC_aHuspD1CrEZ/view"
+        },
+        {
+          "number": 91,
+          "text": "",
           "options": [
             "1",
             "2",
             "3"
           ],
           "answer": 2,
-          "imageUrl": "https://storage.dekiru.vn/Data/2017/12/27/n4-g-1-3-4-636499854467786257.jpg"
+          "audioURL": "https://drive.google.com/file/d/1sKDv9RNP64nVqmQ-X1CMj9emlO6AnPBg/view"
+        },
+        {
+          "number": 92,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/1PWh5U08XImvsfUqFTuV8omNyNxkIKvQy/view"
+        },
+        {
+          "number": 93,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/1xyu6QyxvJq2aTw5bbC2GklzCRHUvEKo5/view"
+        },
+        {
+          "number": 94,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 2,
+          "audioURL": "https://drive.google.com/file/d/10pVM8RTUcoQqTuqj7cgpdqUglH6YSm7N/view"
+        },
+        {
+          "number": 95,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 0,
+          "audioURL": "https://drive.google.com/file/d/1p-rrBA-O6ESlwrrK4iktXPuxyTM1PW51/view"
+        },
+        {
+          "number": 96,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 0,
+          "audioURL": "https://drive.google.com/file/d/1Y0eGvSOMg5W1b9VVaNkqRQ2Y_zQfVOob/view"
+        },
+        {
+          "number": 97,
+          "text": "",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": 1,
+          "audioURL": "https://drive.google.com/file/d/151vk4vTlAk-PQuGxAt8ZFYqHxpuDN_QE/view"
         }
       ]
-    },
-    {
-      "mondai": 15,
-      "title": "Chọn câu trả lời",
-      "description": "この問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選らんでください。",
-      "audioUrl": "https://storage.dekiru.vn/data/mondai-choukai/N4/4.20.mp3",
-      "duration": 25.04,
-      "questions": []
     }
-  ]
+  ],
+  "statistics": {
+    "total_questions": 97,
+    "total_sections": 15,
+    "by_part": {
+      "vocabulary": 34,
+      "grammar": 25,
+      "reading": 10,
+      "listening": 28
+    }
+  }
 }
