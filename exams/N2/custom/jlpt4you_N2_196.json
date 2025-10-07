@@ -611,7 +611,7 @@
     },
     {
       "mondai": 9,
-      "part": "reading",
+      "part": "grammar",
       "title": "Đọc ngắn",
       "description": "次の文章を読んで、後の問いに対する答えとして最もよいものを1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -867,7 +867,7 @@
     },
     {
       "mondai": 14,
-      "part": "listening",
+      "part": "reading",
       "title": "Nghe Mondai 1",
       "description": "この問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
       "questions": [
@@ -1279,13 +1279,9 @@
     }
   ],
   "statistics": {
-    "total_questions": 99,
-    "total_sections": 18,
-    "by_part": {
-      "vocabulary": 32,
-      "grammar": 17,
-      "reading": 18,
-      "listening": 32
-    }
+    "vocabulary": 32,
+    "grammar": 22,
+    "reading": 18,
+    "listening": 27
   }
 }

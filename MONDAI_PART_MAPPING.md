@@ -1,6 +1,6 @@
 # JLPT Mondai Part Mapping - All Levels
 
-**Generated:** 2025-10-06  
+**Generated:** 2025-10-07  
 **Purpose:** Phân loại chi tiết mondai theo part (vocabulary, grammar, reading, listening) cho từng level
 
 ---
@@ -9,8 +9,8 @@
 
 | Level | Vocabulary | Grammar | Reading | Listening | Total Mondai |
 |-------|------------|---------|---------|-----------|--------------|
-| **N1** | Mondai 1-5 | Mondai 6-8 | Mondai 9-13 | Mondai 14-18 | 18 |
-| **N2** | Mondai 1-5 | Mondai 6-8 | Mondai 9-13 | Mondai 14-19* | 18-19 |
+| **N1** | Mondai 1-4 | Mondai 5-7 | Mondai 8-13 | Mondai 14-18 | 18 |
+| **N2** | Mondai 1-6 | Mondai 7-9 | Mondai 10-14 | Mondai 15-19* | 18-19 |
 | **N3** | Mondai 1-5 | Mondai 6-8 | Mondai 9-12 | Mondai 13-17 | 17 |
 | **N4** | Mondai 1-5 | Mondai 6-8 | Mondai 9-11 | Mondai 12-15 | 15 |
 | **N5** | Mondai 1-4 | Mondai 5-7 | Mondai 8-10 | Mondai 11-14 | 14 |
@@ -21,29 +21,29 @@
 
 ## 🎯 N1 - Detailed Breakdown
 
-### 📚 Vocabulary (Mondai 1-5)
+### 📚 Vocabulary (Mondai 1-4)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
 | **Mondai 1** | 6 câu | 1-6 | 漢字読み | Đọc Kanji |
 | **Mondai 2** | 7 câu | 7-13 | 表記 | Viết Kanji từ Hiragana |
 | **Mondai 3** | 6 câu | 14-19 | 文脈規定 | Từ vựng theo ngữ cảnh |
 | **Mondai 4** | 7 câu | 20-26 | 言い換え類義 | Từ đồng nghĩa |
-| **Mondai 5** | 5 câu | 27-31 | 用法 | Cách dùng từ |
 
-**Tổng:** 31 câu từ vựng
+**Tổng:** 26 câu từ vựng
 
-### 📝 Grammar (Mondai 6-8)
+### 📝 Grammar (Mondai 5-7)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
-| **Mondai 6** | 5 câu | 32-36 | 文法形式の判断 | Chọn ngữ pháp đúng |
-| **Mondai 7** | 5 câu | 37-41 | 文の組み立て | Sắp xếp câu (★) |
-| **Mondai 8** | 5 câu | 42-46 | 文章の文法 | Ngữ pháp trong đoạn văn |
+| **Mondai 5** | 5 câu | 27-31 | 文法形式の判断 | Chọn ngữ pháp đúng |
+| **Mondai 6** | 5 câu | 32-36 | 文の組み立て | Sắp xếp câu (★) |
+| **Mondai 7** | 5 câu | 37-41 | 文章の文法 | Ngữ pháp trong đoạn văn |
 
 **Tổng:** 15 câu ngữ pháp
 
-### 📖 Reading (Mondai 9-13)
+### 📖 Reading (Mondai 8-13)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
+| **Mondai 8** | 5 câu | 42-46 | 短文 | Đoạn văn ngắn |
 | **Mondai 9** | 4 câu | 47-50 | 短文 | Đoạn văn ngắn (200 chữ) |
 | **Mondai 10** | 3-4 câu | 57-61* | 中文 | Đoạn văn trung (500 chữ) |
 | **Mondai 11** | 2-3 câu | 62-65* | 長文 | Đoạn văn dài (1000 chữ) |
@@ -68,7 +68,7 @@
 
 ## 🎯 N2 - Detailed Breakdown
 
-### 📚 Vocabulary (Mondai 1-5)
+### 📚 Vocabulary (Mondai 1-6)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
 | **Mondai 1** | 5 câu | 1-5 | 漢字読み | Đọc Kanji |
@@ -76,39 +76,39 @@
 | **Mondai 3** | 5 câu | 11-15 | 文脈規定 | Từ vựng theo ngữ cảnh |
 | **Mondai 4** | 7 câu | 16-22 | 言い換え類義 | Từ đồng nghĩa |
 | **Mondai 5** | 5 câu | 23-27 | 用法 | Cách dùng từ |
+| **Mondai 6** | 5 câu | 28-32 | 用法 | Cách dùng từ (bổ sung) |
 
-**Tổng:** 27 câu từ vựng
+**Tổng:** 32 câu từ vựng
 
-### 📝 Grammar (Mondai 6-8)
+### 📝 Grammar (Mondai 7-9)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
-| **Mondai 6** | 5 câu | 28-32 | 文法形式の判断 | Chọn ngữ pháp đúng |
-| **Mondai 7** | 12 câu | 33-44 | 文の組み立て | Sắp xếp câu (★) |
-| **Mondai 8** | 5 câu | 45-49 | 文章の文法 | Ngữ pháp trong đoạn văn |
+| **Mondai 7** | 12 câu | 33-44 | 文法形式の判断 | Chọn ngữ pháp đúng |
+| **Mondai 8** | 5 câu | 45-49 | 文の組み立て | Sắp xếp câu (★) |
+| **Mondai 9** | 5 câu | 50-54 | 文章の文法 | Ngữ pháp trong đoạn văn |
 
 **Tổng:** 22 câu ngữ pháp
 
-### 📖 Reading (Mondai 9-13)
+### 📖 Reading (Mondai 10-14)
 | Mondai | Câu hỏi | Range | Nội dung | Kỹ năng |
 |--------|---------|-------|----------|---------|
-| **Mondai 9** | 5 câu | 50-54 | 短文 | Đoạn văn ngắn |
-| **Mondai 10** | 5 câu | 55-59* | 中文 | Đoạn văn trung |
-| **Mondai 11** | 9 câu | 60-68* | 長文 | Đoạn văn dài |
-| **Mondai 12** | 2 câu | 69-70* | 情報検索 | Tìm thông tin |
-| **Mondai 13** | 3 câu | 71-73* | 主張理解 | Hiểu quan điểm |
+| **Mondai 10** | 5 câu | 55-59* | 短文 | Đoạn văn ngắn |
+| **Mondai 11** | 9 câu | 60-68* | 中文 | Đoạn văn trung |
+| **Mondai 12** | 2 câu | 69-70* | 長文 | Đoạn văn dài |
+| **Mondai 13** | 3 câu | 71-73* | 情報検索 | Tìm thông tin |
+| **Mondai 14** | 5 câu | 74-78* | 主張理解 | Hiểu quan điểm |
 
 **Tổng:** ~24 câu đọc hiểu  
 *Range thay đổi theo năm
 
-### 🎧 Listening (Mondai 14-19)
+### 🎧 Listening (Mondai 15-19)
 | Mondai | Câu hỏi | Nội dung | Kỹ năng |
 |--------|---------|----------|---------|
-| **Mondai 14** | 7 câu | 課題理解 | Hiểu nhiệm vụ |
-| **Mondai 15** | 6 câu | ポイント理解 | Hiểu điểm chính |
-| **Mondai 16** | 5 câu | 概要理解 | Hiểu tổng quan |
-| **Mondai 17** | 12 câu | 即時応答 | Phản ứng tức thì |
-| **Mondai 18** | 4 câu | 統合理解 | Hiểu tổng hợp |
-| **Mondai 19** | 4 câu | 統合理解 (追加) | Hiểu tổng hợp (bổ sung) |
+| **Mondai 15** | 7 câu | 課題理解 | Hiểu nhiệm vụ |
+| **Mondai 16** | 6 câu | ポイント理解 | Hiểu điểm chính |
+| **Mondai 17** | 5 câu | 概要理解 | Hiểu tổng quan |
+| **Mondai 18** | 12 câu | 即時応答 | Phản ứng tức thì |
+| **Mondai 19** | 4 câu | 統合理解 | Hiểu tổng hợp |
 
 **Tổng:** ~38 câu nghe
 
@@ -251,17 +251,17 @@
 ### Vocabulary Distribution
 | Level | Mondai Range | Total Questions | Percentage |
 |-------|--------------|-----------------|------------|
-| N1 | Mondai 1-5 | 31 câu | ~48% |
-| N2 | Mondai 1-5 | 27 câu | ~25% |
-| N3 | Mondai 1-5 | 33 câu | ~31% |
+| N1 | Mondai 1-4 | 26 câu | ~40% |
+| N2 | Mondai 1-6 | 32 câu | ~30% |
+| N3 | Mondai 1-5 | 35 câu | ~33% |
 | N4 | Mondai 1-5 | 35 câu | ~36% |
 | N5 | Mondai 1-4 | 35 câu | ~38% |
 
 ### Grammar Distribution
 | Level | Mondai Range | Total Questions | Percentage |
 |-------|--------------|-----------------|------------|
-| N1 | Mondai 6-8 | 15 câu | ~23% |
-| N2 | Mondai 6-8 | 22 câu | ~21% |
+| N1 | Mondai 5-7 | 15 câu | ~23% |
+| N2 | Mondai 7-9 | 22 câu | ~21% |
 | N3 | Mondai 6-8 | 23 câu | ~22% |
 | N4 | Mondai 6-8 | 23 câu | ~24% |
 | N5 | Mondai 5-7 | 20 câu | ~22% |
@@ -269,8 +269,8 @@
 ### Reading Distribution
 | Level | Mondai Range | Total Questions | Percentage |
 |-------|--------------|-----------------|------------|
-| N1 | Mondai 9-13 | 15-16 câu | ~24% |
-| N2 | Mondai 9-13 | 24 câu | ~22% |
+| N1 | Mondai 8-13 | 15-16 câu | ~24% |
+| N2 | Mondai 10-14 | 24 câu | ~22% |
 | N3 | Mondai 9-12 | 16 câu | ~15% |
 | N4 | Mondai 9-11 | 11 câu | ~11% |
 | N5 | Mondai 8-10 | 8 câu | ~9% |
@@ -279,7 +279,7 @@
 | Level | Mondai Range | Total Questions | Percentage |
 |-------|--------------|-----------------|------------|
 | N1 | Mondai 14-18 | ~35 câu | ~54% |
-| N2 | Mondai 14-18 | ~34 câu | ~32% |
+| N2 | Mondai 15-19 | ~34 câu | ~32% |
 | N3 | Mondai 13-17 | ~32 câu | ~30% |
 | N4 | Mondai 12-15 | ~28 câu | ~29% |
 | N5 | Mondai 11-14 | ~24 câu | ~26% |
@@ -311,10 +311,14 @@
 ## 📌 Usage Guide
 
 ### For Students
-- **Ôn từ vựng**: Focus vào mondai 1-5 (hoặc 1-4 cho N5)
-- **Luyện ngữ pháp**: Focus vào mondai 6-8 (hoặc 5-7 cho N5)
-- **Đọc hiểu**: Focus vào mondai 9-13 (tùy level)
-- **Nghe**: Focus vào mondai 14-18 (tùy level)
+- **Ôn từ vựng**: 
+  - N1: Mondai 1-4 | N2: Mondai 1-6 | N3-N4: Mondai 1-5 | N5: Mondai 1-4
+- **Luyện ngữ pháp**: 
+  - N1: Mondai 5-7 | N2: Mondai 7-9 | N3-N4: Mondai 6-8 | N5: Mondai 5-7
+- **Đọc hiểu**: 
+  - N1: Mondai 8-13 | N2: Mondai 10-14 | N3: Mondai 9-12 | N4: Mondai 9-11 | N5: Mondai 8-10
+- **Nghe**: 
+  - N1: Mondai 14-18 | N2: Mondai 15-19 | N3: Mondai 13-17 | N4: Mondai 12-15 | N5: Mondai 11-14
 
 ### For Developers
 - Filter questions by `part` field: `vocabulary`, `grammar`, `reading`, `listening`
@@ -329,5 +333,5 @@
 ---
 
 **Generated by:** Manual analysis + convert_to_custom_format.py  
-**Last Updated:** 2025-10-06  
-**Version:** 1.0
+**Last Updated:** 2025-10-07  
+**Version:** 2.0 (Updated part mapping)

@@ -8,37 +8,37 @@ import os
 from pathlib import Path
 from collections import defaultdict
 
-# Mondai to Part mapping
+# Mondai to Part mapping (Version 2.0 - Updated)
 MONDAI_PART_MAPPING = {
     "N1": {
-        "vocabulary": list(range(1, 6)),
-        "grammar": list(range(6, 9)),
-        "reading": list(range(9, 14)),
-        "listening": list(range(14, 19))
+        "vocabulary": list(range(1, 5)),    # Mondai 1-4
+        "grammar": list(range(5, 8)),       # Mondai 5-7
+        "reading": list(range(8, 14)),      # Mondai 8-13
+        "listening": list(range(14, 100))   # Mondai 14-last
     },
     "N2": {
-        "vocabulary": list(range(1, 6)),
-        "grammar": list(range(6, 9)),
-        "reading": list(range(9, 14)),
-        "listening": list(range(14, 20))  # Mondai 14-19
+        "vocabulary": list(range(1, 7)),    # Mondai 1-6
+        "grammar": list(range(7, 10)),      # Mondai 7-9
+        "reading": list(range(10, 15)),     # Mondai 10-14
+        "listening": list(range(15, 100))   # Mondai 15-last
     },
     "N3": {
-        "vocabulary": list(range(1, 6)),
-        "grammar": list(range(6, 9)),
-        "reading": list(range(9, 13)),
-        "listening": list(range(13, 18))
+        "vocabulary": list(range(1, 6)),    # Mondai 1-5
+        "grammar": list(range(6, 9)),       # Mondai 6-8
+        "reading": list(range(9, 13)),      # Mondai 9-12
+        "listening": list(range(13, 100))   # Mondai 13-last
     },
     "N4": {
-        "vocabulary": list(range(1, 6)),
-        "grammar": list(range(6, 9)),
-        "reading": list(range(9, 12)),
-        "listening": list(range(12, 16))
+        "vocabulary": list(range(1, 6)),    # Mondai 1-5
+        "grammar": list(range(6, 9)),       # Mondai 6-8
+        "reading": list(range(9, 12)),      # Mondai 9-11
+        "listening": list(range(12, 100))   # Mondai 12-last
     },
     "N5": {
-        "vocabulary": list(range(1, 5)),
-        "grammar": list(range(5, 8)),
-        "reading": list(range(8, 11)),
-        "listening": list(range(11, 15))
+        "vocabulary": list(range(1, 5)),    # Mondai 1-4
+        "grammar": list(range(5, 8)),       # Mondai 5-7
+        "reading": list(range(8, 11)),      # Mondai 8-10
+        "listening": list(range(11, 100))   # Mondai 11-last
     }
 }
 

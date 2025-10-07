@@ -312,7 +312,7 @@
     },
     {
       "mondai": 6,
-      "part": "grammar",
+      "part": "vocabulary",
       "title": "Chọn ngữ pháp",
       "description": "次の文の（　　　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -515,7 +515,7 @@
     },
     {
       "mondai": 8,
-      "part": "reading",
+      "part": "grammar",
       "title": "Điền chỗ trống đoạn văn",
       "description": "次の文章を読んで、文章全体の内容を考えて、(1)から(5 )の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -583,7 +583,7 @@
     },
     {
       "mondai": 9,
-      "part": "reading",
+      "part": "grammar",
       "title": "Đọc ngắn",
       "description": "次の文章を読んで、後の問いに対する答えとして最もよいものを1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -875,7 +875,7 @@
     },
     {
       "mondai": 14,
-      "part": "listening",
+      "part": "reading",
       "title": "Nghe Mondai 1",
       "description": "この問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
       "questions": [
@@ -1263,13 +1263,9 @@
     }
   ],
   "statistics": {
-    "total_questions": 97,
-    "total_sections": 18,
-    "by_part": {
-      "vocabulary": 24,
-      "grammar": 17,
-      "reading": 26,
-      "listening": 30
-    }
+    "vocabulary": 36,
+    "grammar": 15,
+    "reading": 21,
+    "listening": 25
   }
 }

@@ -344,7 +344,7 @@
     },
     {
       "mondai": 6,
-      "part": "grammar",
+      "part": "vocabulary",
       "title": "Chọn ngữ pháp đúng",
       "description": "問題6 次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -610,7 +610,7 @@
     },
     {
       "mondai": 9,
-      "part": "reading",
+      "part": "grammar",
       "title": "Đoạn văn ngắn",
       "description": "問題9次の文章を読んで、(50)から(54)の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -933,7 +933,7 @@
     },
     {
       "mondai": 14,
-      "part": "listening",
+      "part": "reading",
       "title": "Hiểu nhiệm vụ",
       "description": "問題 14. この問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
       "questions": [
@@ -1343,5 +1343,11 @@
         }
       ]
     }
-  ]
+  ],
+  "statistics": {
+    "vocabulary": 32,
+    "grammar": 22,
+    "reading": 24,
+    "listening": 27
+  }
 }

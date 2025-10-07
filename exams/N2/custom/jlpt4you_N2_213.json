@@ -611,7 +611,7 @@
     },
     {
       "mondai": 9,
-      "part": "reading",
+      "part": "grammar",
       "title": "Điền chỗ trống đoạn văn",
       "description": "次の文章を読んで、文章全体の内容を考えて、(1)から(5 )の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
       "questions": [
@@ -831,7 +831,7 @@
     },
     {
       "mondai": 14,
-      "part": "listening",
+      "part": "reading",
       "title": "Nghe Mondai 1",
       "description": "この問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選らんでください。",
       "questions": [
@@ -1243,13 +1243,9 @@
     }
   ],
   "statistics": {
-    "total_questions": 96,
-    "total_sections": 18,
-    "by_part": {
-      "vocabulary": 32,
-      "grammar": 17,
-      "reading": 15,
-      "listening": 32
-    }
+    "vocabulary": 32,
+    "grammar": 20,
+    "reading": 17,
+    "listening": 27
   }
 }
